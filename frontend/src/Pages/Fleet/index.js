@@ -1,5 +1,7 @@
 import React from "react";
+import "./fleet.scss";
 import { NavLink } from "react-router-dom";
+import Modal from 'react-modal';
 import { AuthContext } from "../../Auth";
 import { genericCatch, ToastContext, toastHttp } from "../../Toast";
 
@@ -13,8 +15,20 @@ async function setWaitlistOpen(waitlistId, isOpen) {
   });
 }
 
+async function closeFleet(fleetId, characterId) {
+  return await fetch("/api/fleet/" + fleetId, {
+    method: "DELETE",
+    body: JSON.stringify({ fleet_id: fleetId, character_id: characterId }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+}
+
 export function Fleet() {
+  const authContext = React.useContext(AuthContext);
   const [fleets, setFleets] = React.useState(null);
+  const [modalCloseFleetIsOpen, setCloseFleetIsOpen] = React.useState(false);
   const toastContext = React.useContext(ToastContext);
 
   React.useEffect(() => {
@@ -52,8 +66,57 @@ export function Fleet() {
         >
           Close waitlist
         </button>
+        {!fleets
+        ? null
+        :
+          <button
+            className="button is-danger"
+            onClick={() => setCloseFleetIsOpen(true)}
+          >
+            Kick all!
+          </button>
+        }
       </div>
       <div className="content">
+        <Modal
+          className="modal is-active"
+          isOpen={modalCloseFleetIsOpen}
+          onRequestClose={() => setCloseFleetIsOpen(false)}
+          shouldCloseOnOverlayClick={true}
+        >
+          <div className="modal-card">
+            <header className="modal-card-head">
+              <p className="modal-card-title">Warning!</p>
+              <button className="delete" aria-label="close" onClick={() => setCloseFleetIsOpen(false)}></button>
+            </header>
+            <section className="modal-card-body">
+              <h2>
+                All members will be kicked from fleet!<br />
+                Do you want to continue?
+              </h2>
+            </section>
+            <footer className="modal-card-foot">
+              <div className="buttons is-right">
+                <button
+                  className="button is-danger"
+                  onClick={() => closeFleet(fleets.fleets[0].id, authContext.current.id)
+                    .then(setCloseFleetIsOpen(false))
+                    .then(toastHttp(toastContext),
+                      genericCatch(toastContext))}
+                >
+                  Yes
+                </button>
+                <button
+                  className="button is-info"
+                  onClick={() => setCloseFleetIsOpen(false)}
+                >
+                  No
+                </button>
+              </div>
+            </footer>
+          </div>
+        </Modal>
+        {modalCloseFleetIsOpen}
         <p>
           <em>Xifon needs more time to build this page.</em> Anyway, it works. Make sure you re-auth
           via ESI, then create an in-game fleet with your comp. Click the &quot;Configure

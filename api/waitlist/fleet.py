@@ -83,3 +83,23 @@ def register_fleet() -> ViewReturn:
 
     g.db.commit()
     return "OK"
+
+@bp.route("/api/fleet/<int:fleet_id>", methods=["DELETE"])
+@auth.login_required
+@auth.select_character()
+@auth.admin_only
+def close_fleet(fleet_id: int) -> ViewReturn:
+    character_id = request.json["character_id"]
+
+    fleet = g.db.query(Fleet).filter(Fleet.id == fleet_id, Fleet.boss_id == character_id).one_or_none()
+    if not fleet:
+        return "Forbidden", 403
+    
+    members = esi.get("/v1/fleets/%d/members" % fleet_id, g.character_id).json()
+
+    members = list(filter(lambda member: character_id != member["character_id"], members))
+    
+    for member in members:
+        esi.delete("/v1/fleets/%d/members/%d/" % (fleet_id, member["character_id"]), g.character_id)
+
+    return "OK"
