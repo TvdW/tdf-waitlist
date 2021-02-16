@@ -158,15 +158,17 @@ export function DpsSkills({ group, mySkills }) {
             ids={mySkills.ids}
           />
         </div>
-        <div className="column">
-          <SkillTable
-            title="Nightmare"
-            group={group}
-            current={mySkills.current}
-            requirements={mySkills.requirements.ships.Nightmare}
-            ids={mySkills.ids}
-          />
-        </div>
+        {group == "gold" ? null : (
+          <div className="column">
+            <SkillTable
+              title="Nightmare"
+              group={group}
+              current={mySkills.current}
+              requirements={mySkills.requirements.ships.Nightmare}
+              ids={mySkills.ids}
+            />
+          </div>
+        )}
         <div className="column">
           <SkillTable
             title="Paladin"
@@ -241,7 +243,7 @@ export function Skills() {
   const [group, setGroup] = React.useState("elite");
   const authContext = React.useContext(AuthContext);
   const queryParams = new URLSearchParams(useLocation().search);
-  var characterId = queryParams.get("character_id") || authContext.id;
+  var characterId = queryParams.get("character_id") || authContext.current.id;
 
   React.useEffect(() => {
     var loadId = characterId; // Shadow
