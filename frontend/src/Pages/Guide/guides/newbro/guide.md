@@ -3,6 +3,7 @@
 ## Joining TDF's Channel & Requirements
 
 To find us in-game; join the chat channel TDF-Official. You can do this by clicking the little plus button where your chat window is at the top. Then in the channels box type TDF-Official and then click join.
+
 **To get started in TDF you are required to be able to fully online your ship and you need armor comps at level 2 for starter fits**, 4+ for any other fits. The minimum skills are the skills you should focus on when you start flying, **as long as you are lacking them you will be placed in the starter squad which is limited to 4 - 5 in fleet.**
 
 ![](joinchannel.png)
