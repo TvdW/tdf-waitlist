@@ -70,8 +70,7 @@ Tag the site TDF is in A.
 ## Preloading
 
 TCRC's have to be preloaded. In order to do this you just have to warp inside the site. From there you can either immediatly warp off or cloak. You might have to very quickly burn away from the beacon in order to be able to cloak.
-If you just warped of your job is done, if not you can tag the site. X tag on auga and the 2 schmaels orbiting the romi on the left (not the group at the tower, the one just before that.)
-
+If you just warped of your job is done, if not you can tag the site. X tag on auga and the 2 schmaels orbiting the romi. After fleet is inside and agro fully set you can uncloak and warp out.
 ![](xtag.png)
 
 ## Site Timers
