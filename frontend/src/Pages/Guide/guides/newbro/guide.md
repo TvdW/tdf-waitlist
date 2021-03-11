@@ -1,10 +1,15 @@
 # New-Bro Guide
 
-## Joining TDF's Channel & Requirements
+## Requirements
+
+**To get started in TDF all you need is to be able to fully online your ship and have the 4 armor compensation skills at level 2 for starter fits**, 4+ for any other fits. The minimum skills are the skills you should focus on when you start flying, **as long as you are lacking them you will be placed in the starter squad which is limited to 4 - 5 in fleet.**
+
+_"TDF has great affordable starter fits. TDF will help you get spacerich, however TDF expects you to upgrade to pro fits ASAP and has SRP to make sure you keep that ship. It's only fair to all pilots who have made the effort to upgrade and it improves site times tremendously. After you have upgraded, spend the isk any way you want."_
+
+## Joining TDF's Channel
 
 To find us in-game; join the chat channel TDF-Official. You can do this by clicking the little plus button where your chat window is at the top. Then in the channels box type TDF-Official and then click join.
 
-**To get started in TDF you are required to be able to fully online your ship and you need armor comps at level 2 for starter fits**, 4+ for any other fits. The minimum skills are the skills you should focus on when you start flying, **as long as you are lacking them you will be placed in the starter squad which is limited to 4 - 5 in fleet.**
 
 ![](joinchannel.png)
 
