@@ -45,6 +45,6 @@ TCRCs are special as we know you’re mostly likely to grab aggro because of you
 3.  WAIT for the aggro swap from the meat shield to whoever but wait for full switch!!! Once this happens you should have enough time for 1 cycle of bastion. If you are quick you CAN get 2 cycles but please get used to 1 cycle before trying 2.
 4.  After each FULL switch you can Bastion 1 cycle. DO NOT Bastion when the tower is in hull.
 
-Be very mindfull of your fellow bastion pilots when jumping from the beacon, be aligned correctly right between the tower and the sansha starbase shield transfer array (balls) the or there will be bumps !
+Be very mindfull of your fellow bastion pilots when jumping from the beacon, be aligned correctly right between the tower and the Sansha Starbase Shield Transfer Array (balls) the or there will be bumps !
 
 ![](bumpwarning.png)
