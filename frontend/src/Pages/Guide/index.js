@@ -102,6 +102,11 @@ export function GuideIndex() {
           General tips
         </NavLink>
       </p>
+      <p>
+        <NavLink exact to="/guide/scouting">
+          Scouting guide
+        </NavLink>
+      </p>
     </Content>
   );
 }
