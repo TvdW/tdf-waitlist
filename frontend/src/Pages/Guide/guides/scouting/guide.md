@@ -6,7 +6,6 @@ Fleet scouts are an essential part of an HQ Fleet! Scouts help the FC find avail
 
 ## Fit
 
-```
 [Atron, Example scout fit]
 
 Type-D Restrained Inertial Stabilizers
@@ -28,9 +27,9 @@ Small Hyperspatial Velocity Optimizer II
 
 Four Freedoms Firework x100
 Iron Charge S x1000
-```
+
 More expensive fit, if you feel safer being covert ops cloaked, make the fit that works best for you!
-```
+
 [Astero, Expensive scout fit]
 Inertial Stabilizers II
 Inertial Stabilizers II
@@ -47,7 +46,7 @@ Covert Ops Cloaking Device II
 Small Hyperspatial Velocity Optimizer II
 Small Hyperspatial Velocity Optimizer II
 Small Hyperspatial Velocity Optimizer II
-```
+
 
 ## Tools
 
