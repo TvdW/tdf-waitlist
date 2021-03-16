@@ -4,7 +4,7 @@ With the Bastions of War changes, marauders now do double damage while in Bastio
 
 Pilot error is NOT COVERED under SRP. If you Bastion by mistake at the wrong time, no SRP. If you jump out of rep range, no SRP.
 
-Bastion is for experienced incursion runners only. This means to use it you MUST:
+Bastion is for experienced incursion runners only. This means to use it you **MUST**:
 
 1.  Know how aggro works in incursions.
 2.  Know all the incursion sites
