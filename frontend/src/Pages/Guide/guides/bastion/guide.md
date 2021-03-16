@@ -11,6 +11,8 @@ Bastion is for experienced incursion runners only. This means to use it you MUST
 3.  Know how logistics work (espcially armor reps).
 4.  Know the different Sansha rats.
 5.  Be able to communicate with the FC.
+6.  Have full Elite skills.
+7.  Use a Hybrid or Amulet pod.
 
 ## General rules if you want SRP
 
@@ -18,7 +20,6 @@ Bastion is for experienced incursion runners only. This means to use it you MUST
 2.  **Bastion in lowest module row, NO SHORTCUT!**
 3.  You do not Bastion until aggro is established on one target at the start of a wave/site.
 4.  If someone dies on-grid you are to turn Bastion off for the rest of the site.
-5.  Full Hybrid or Amulet pod is required for SRP.
 6.  No abyssal plates on Bastion ships.
 7.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
 
