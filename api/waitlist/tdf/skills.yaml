@@ -35,7 +35,6 @@ categories:
     - Fuel Conservation
     - Armor Rigging
     - Armor Layering
-    - Astronautics Rigging
   Drones:
     - Drones
     - Gallente Drone Specialization
@@ -366,8 +365,6 @@ Paladin:
     gold: 5
   Amarr Battleship:
     min: 5
-  Astronautics Rigging:
-    gold: 5
 
 Kronos:
   <<: *generic
