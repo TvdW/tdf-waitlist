@@ -1,6 +1,6 @@
 # Bastion guide
 
-With the Bastions of War changes, marauders now do double damage while in Bastion. This is obviously huge, but comes at the downside of being unable to receive reps from logi. This guide should cover most things you need to know to run Bastion whilst receving SRP. The bastion badge, which requires full elite + abyssal damage mods is not required to use bastion but it is encouraged to obtain it.
+With the Bastions of War changes, marauders now do double damage while in Bastion. This is obviously huge, but comes at the downside of being unable to receive reps from logi. This guide should cover most things you need to know to run Bastion whilst receving SRP. The bastion badge, which requires full elite + abyssal damage mods is not required to use bastion, but it is encouraged to obtain it.
 
 Pilot error is NOT COVERED under SRP. If you Bastion by mistake at the wrong time, no SRP. If you jump out of rep range, no SRP.
 
@@ -19,7 +19,7 @@ Bastion is for experienced incursion runners only. This means to use it you MUST
 3.  You do not Bastion until aggro is established on one target at the start of a wave/site.
 4.  If someone dies on-grid you are to turn Bastion off for the rest of the site.
 5.  Full Hybrid or Amulet pod is required for SRP.
-6.  Elite tank skills.
+6.  Elite tank skills, armor compensation, mechanics and Hull upgrades to 5.
 7.  No abyssal plates on Bastion ships.
 8.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
 
