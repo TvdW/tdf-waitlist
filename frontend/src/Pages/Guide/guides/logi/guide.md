@@ -69,7 +69,7 @@ Watch for broadcasts. When a shield/armor broadcast is received you should immed
 
 Once the aggro has been established and your target is stable you can continue on to do other tasks for eg roping and assigning your drones, checking your orbit etc, lock up DDD/HHH for remote tracking links.
 
-You will need to learn to manage your locked targets as you learn the logi role. Having 1-2 aggro magnets pre-locked is always a good idea, but you dont want to lock too many people or you will eventually run out of locks. And this would be bad for whoever takes the next lot of aggro.
+You will need to learn to manage your locked targets as you learn the logi role. Having 1-2 aggro magnets pre-locked is always a good idea, but you dont want to lock too many people or you will eventually run out of locks.
 
 In an emergency, such as a late broadcast, you might find that as you lock the target they are already below 50% armor. Cancel ALL running reps and apply them to the target. You can save anyone else you were repping later. Overheat your reps a few cycles, **DO NOT BURN THEM OUT**! Once the pilot has reached 100% armor you may return to repping other targets. Always be ready to speak up on teamspeak in such situations and never be afraid to call for battlereps or more reps if needed. You could be what saves that persons ship!
 
