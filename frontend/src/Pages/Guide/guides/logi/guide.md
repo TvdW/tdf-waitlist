@@ -28,7 +28,7 @@ The EM-806 Implant is required for all Nestors & Guardians.
 
 ### Watchlist
 
-The watchlist is a useful tool for keeping track of certain members of your fleet. For eg, other logi, fc, anchors, boosters, aggro magnets.
+The watchlist is a useful tool for keeping track of certain members of your fleet. For e.g., other logi, fc, anchors, boosters, aggro magnets.
 
 Colour coding your watchlist is advised so you can see who is who at a glance. You can also lock targets quickly by ctrl+clicking on them in your watchlist, or see if they are taking damage.
 
@@ -65,9 +65,9 @@ Upon entering a site, cruiser logi should immediately burn forward; if you immed
 
 Nestors should burn directly to their anchors by using the Q command in space.
 
-Watch for broadcasts. When a shield/armor broadcast is received you should immediately lock them up and dump all of your reps onto them (for armor, for shield usually 1 rep is enough if needed at all).Once the target is stable, cruiser logi quickly decycle down to 1 rep to leave the rest available for the next broadcast. Nestors will generally dump 4-6 reps and decycle to 3 as needed. _Remember armor lands at the end of the cycle_.
+Watch for broadcasts. When a shield/armor broadcast is received you should immediately lock them up and dump all of your reps onto them (for armor, for shield usually 1 rep is enough if needed at all).Once the target is stable, cruiser logi quickly decycle down to 1 rep to leave the rest available for the next broadcast. Nestors will generally dump 4-6 reps and decycle to 3 as needed. _Remember armor lands at the end of the rep cycle_.
 
-Once the aggro has been established and your target is stable you can continue on to do other tasks for eg roping and assigning your drones, checking your orbit etc, lock up DDD/HHH for remote tracking links.
+Once the aggro has been established and your target is stable you can continue on to do other tasks such as: repping and assigning your drones, checking your orbit etc, lock up DDD/HHH for remote tracking links.
 
 You will need to learn to manage your locked targets as you learn the logi role. Having 1-2 aggro magnets pre-locked is always a good idea, but you dont want to lock too many people or you will eventually run out of locks.
 
@@ -79,7 +79,7 @@ In an emergency, such as a late broadcast, you might find that as you lock the t
 
 On your watchlist it is important to have all other Logi pilots, the boosters, the FC, as well as any known aggro magnets. It is recommended to always keep your other Nestor pilots locked up as well as pre-locking any aggro magnets if needed.
 
-Nestors bring both DPS and Logi drones and it is important to learn when to use what drones. For eg in a contest you will always drop your DPS drones, but in other sites like a TCRC you may want to launch Armor bots to handle troll aggro. As always listen to the FC and do as they instruct.
+Nestors bring both DPS and Logi drones and it is important to learn when to use what drones. E.g. in a contest you will always drop your DPS drones, but in other sites like a TCRC, you may want to launch Armor bots to handle troll aggro. As always listen to the FC and do as they instruct.
 
 Hull/Shield bots are kept for mostly emergency situations.
 
