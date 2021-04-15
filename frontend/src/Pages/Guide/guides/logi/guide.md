@@ -89,7 +89,7 @@ In both AS and HQ sites the method of reps and cap is the same.
 
 Nestors are the highest priority for cap, with boosters/cruiser logi being next. If any of these broadcasts for cap, immediately cancel any current rep/cap cycle and put cap/rep on the broadcast. Cap the person until cap is no longer needed.
 
-When in fleet you’ll find some pilots will require cap more often than others, you can add these to your watchlist to keep them topped up in times of calm. If there are no cap broadcasts put cap on Starter Pilots.
+When in fleet, you’ll find some pilots will require cap more often than others; you can add these to your watchlist to keep them topped up in times of calm. If there are no cap broadcasts, give cap to Starter pilots.
 
 For cap broadcasts: Run continuously while an Outuni is on grid, switching your cap transfer if the outuni switches target. For all other broadcasts, give 3 cycles of cap unless the person states they require more.
 
@@ -97,7 +97,7 @@ Dont forget to deploy your drones!
 
 ### Oneiros
 
-When flying an Oni one of the most important things to remember is that your speed is your tank! Always orbit with your AB on.
+When flying an Oni, one of the most important things to remember is that your speed is your tank! Always orbit with your AB on.
 
 Your special role in the fleet is to provide remote tracking links to the DDD/HHH. If there is more than one Oni in fleet, work together to decide who will link which drone bunny. Add the DDD/HHH to your watchlist for faster locking on entering sites.
 
@@ -115,9 +115,9 @@ For all VG sites, lock all fleet members upon entering site. If you do not have 
 
 #### True Power Provisional Headquarters (TPPH)
 
-Upon landing after the first gate, turn left and start burning to the outgate, Use the Q command to do this. Be sure not to out run the gate! Wait for FC to call ‘Gate Status’.
+Upon landing after the first gate, turn left and start burning to the out-gate, Use the Q command to do this. Be sure not to out run the gate! Wait for FC to call ‘Gate Status’.
 
-In the second room you will burn straight ahead to the next out gate using the same Q command.
+In the second room you will burn straight ahead to the next out-gate using the same Q command.
 
 Once you land in the third room you will want to immediately burn forward a bit and then establish your obit of 7500km on your chosen Nestor. Nestors will burn directly to tier anchor spot which is approx 15km left of the battletower. Deploy your DPS drones.
 
@@ -141,11 +141,11 @@ Main Aggro (armor broadcast) is when you are red/yellow boxed by the majority of
 
 Troll aggro (shield broadcast) is when you are red/yellow boxed by the frigates, or by the Auga/Romi in a TCRC. The aggro can also split between several targets. Lock up all broadcasts!
 
-This site has a live warpout, which means that once the scrams are cleared, the FC will call for the DPS ships to warp themselves to the next broadcast and the Logi will stay behind and align with prop mods OFF. You should lock up all remaining fleet members on grid, usually the other logi/fc/booster. And the FC will wing warp when it is safe to do so. You should never warp yourself out of a TCRC unless specifically told to do so!
+This site has a live warp-out, which means that once the scrams are cleared, the FC will call for the DPS ships to warp themselves to the next broadcast and the Logi will stay behind and align with prop mods OFF. You should lock up all remaining fleet members on grid, usually the other logi/fc/booster. And the FC will wing warp when it is safe to do so. You should never warp yourself out of a TCRC unless specifically told to do so!
 
 #### The Kundalini Manifest (MOM)
 
-This is basically a giant TCRC site. And will be run in almost the exact same manner. The only real difference is the appearance of ‘bombers’ Called ‘Lirsautton Parachiya’. If you are targeted by these you will be asked to double broadcast for armor. Should you see double armor broadcasts during the MOM site you should immediately lock this person and be prepared to manage the incoming bomber wave.
+This is basically a giant TCRC site. And will be run in almost the exact same manner. The only real difference is the appearance of ‘bombers’ called ‘Lirsautton Parachiya’. If you are targeted by these you will be asked to double broadcast for armor. Should you see double armor broadcasts during the MOM site you should immediately lock this person and be prepared to manage the incoming bomber wave.
 
 There can also be ECM bursts from the MOM, when this happens you will need to relock all latest broadcasts and recycle reps/cap.
 
