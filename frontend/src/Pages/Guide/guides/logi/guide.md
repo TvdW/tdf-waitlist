@@ -28,7 +28,7 @@ The EM-806 Implant is required for all Nestors & Guardians.
 
 ### Watchlist
 
-The watchlist is a useful tool for keeping track of certain members of your fleet. For eg, other logi, fc, anchors, boosters, agro magnets.
+The watchlist is a useful tool for keeping track of certain members of your fleet. For eg, other logi, fc, anchors, boosters, aggro magnets.
 
 Colour coding your watchlist is advised so you can see who is who at a glance. You can also lock targets quickly by ctrl+clicking on them in your watchlist, or see if they are taking damage.
 
@@ -61,25 +61,25 @@ As a logi you should always try to follow lasers to see who is currently taking 
 
 ## FC?! WHAT DO?!?
 
-Upon entering a site cruiser logi should immediately burn forward,then establish an orbit of 7500m on your Nestor of choice. You can do this by holding W and clicking on a Nestor in your watchlist. Orbit with prop mod on always.
+Upon entering a site, cruiser logi should immediately burn forward; if you immediately orbit a nestor you will most likely go backwards off the beacon, leaving you behind the rest of the fleet. Once the Nestors are in front of you, establish an orbit of 7500m on your Nestor of choice. You can do this by holding W and clicking on a Nestor in your watchlist. Orbit with prop mod on always.
 
 Nestors should burn directly to their anchors by using the Q command in space.
 
 Watch for broadcasts. When a shield/armor broadcast is received you should immediately lock them up and dump all of your reps onto them (for armor, for shield usually 1 rep is enough if needed at all).Once the target is stable, cruiser logi quickly decycle down to 1 rep to leave the rest available for the next broadcast. Nestors will generally dump 4-6 reps and decycle to 3 as needed. _Remember armor lands at the end of the cycle_.
 
-Once the agro has been established and your target is stable you can continue on to do other tasks for eg roping and assigning your drones, checking your orbit etc, lock up DDD/HH for remote tracking links.
+Once the aggro has been established and your target is stable you can continue on to do other tasks for eg roping and assigning your drones, checking your orbit etc, lock up DDD/HHH for remote tracking links.
 
-You will need to learn to manage your locked targets as you learn the logi role. Having 1-2 agro magnets pre-locked is always a good idea, but you dont want to lock too many people or you will eventually run out of locks. And this would be bad for whoever takes the next lot of agro.
+You will need to learn to manage your locked targets as you learn the logi role. Having 1-2 aggro magnets pre-locked is always a good idea, but you dont want to lock too many people or you will eventually run out of locks. And this would be bad for whoever takes the next lot of aggro.
 
-In an emergency, such as a late broadcast, you might find that as you lock the target they are already below 50% armor. Cancel ALL running reps and apply them to the target. You can save anyone else you were repping alter. Overheat your reps a few cycles, **DO NOT BURN THEM OUT**! Once the pilot has reached 100% armor you may return to repping other targets. Always be ready to speak up on teamspeak in such situations and never be afraid to call for battlereps or more reps if needed. You could be what saves that persons ship!
+In an emergency, such as a late broadcast, you might find that as you lock the target they are already below 50% armor. Cancel ALL running reps and apply them to the target. You can save anyone else you were repping later. Overheat your reps a few cycles, **DO NOT BURN THEM OUT**! Once the pilot has reached 100% armor you may return to repping other targets. Always be ready to speak up on teamspeak in such situations and never be afraid to call for battlereps or more reps if needed. You could be what saves that persons ship!
 
 ## Ships
 
 ### Nestor
 
-On your watchlist it is important to have all other Logi pilots, the boosters, the FC, as well as any known agro magnets. It is recommended to always keep your other Nestor pilots locked up as well as pre-locking any agro magnets if needed.
+On your watchlist it is important to have all other Logi pilots, the boosters, the FC, as well as any known aggro magnets. It is recommended to always keep your other Nestor pilots locked up as well as pre-locking any aggro magnets if needed.
 
-Nestors bring both DPS and Logi drones and it is important to learn when to use what drones. For eg in a contest you will always drop your DPS drones, but in other sites like a tcrc you may want to launch Armor bots to handle troll agro. And then launch DPS drones once you are at the tower. As always listen to the FC and do as they instruct.
+Nestors bring both DPS and Logi drones and it is important to learn when to use what drones. For eg in a contest you will always drop your DPS drones, but in other sites like a TCRC you may want to launch Armor bots to handle troll aggro. As always listen to the FC and do as they instruct.
 
 Hull/Shield bots are kept for mostly emergency situations.
 
@@ -103,7 +103,7 @@ Your special role in the fleet is to provide remote tracking links to the DDD/HH
 
 All links go to DDD in a TCRC.
 
-Generally speaking, most Vindicators will want 2 tracking/1 opti link. DDD/HHH will be listed in the fleet MOTD.
+Generally speaking, most DDD's will want 2 tracking/1 opti link, while HHH's should get 1 opti each. DDD/HHH will be listed in the fleet MOTD.
 
 ## Sites
 
@@ -127,21 +127,21 @@ After taking the gate Nestors will want to burn approx 75km forward. Staying abo
 
 #### True Creations Research Center (TCRC)
 
-This site can be particularly dangerous, so as a logi you must pay attention to broadcasts/agro switches, which happen every 1min approx.
+This site can be particularly dangerous, so as a logi you must pay attention to broadcasts/aggro switches, which happen every 1min approx.
 
-The FC will order the Meatshield (usually a Damnation) to enter the site first and establish the agro. Depending on how pre-loaded the site is we will take the gate anywhere from 0-30 seconds after the meatshield.
+The FC will order the Meatshield (usually a Damnation) to enter the site first and establish the aggro. Depending on how pre-loaded the site is we will take the gate anywhere from 0-30 seconds after the meatshield.
 
-As a cruiser you do not want to take the gate first when FC calls gate status, you have one of the fastest warp speeds. So count to 3 before taking the gate. Nestors should take it immediately on hearing Gate status.
+As a cruiser you do not want to take the gate first when FC calls gate status, you have one of the fastest warp speeds. So count to 3 before taking the gate. Nestors should take it immediately on hearing the Gate status.
 
 Upon landing immediately lock the meatshield before doing anything else and dump all reps on them. Then Nestors will burn forward in the direction of the Shield Transfer Array, Cruisers will burn forwards before establishing their orbits. Once the meatshield is stable cruisers should decycle down to 1 rep, and Nestors down to 3 and be ready to rep the next person.
 
-Agro shifts quite alot in this site and there are two types of agro:
+Aggro shifts quite alot in this site and there are two types of aggro:
 
-Main Agro (armor broadcast) is when you are red/yellow boxed by the majority of the room.
+Main Aggro (armor broadcast) is when you are red/yellow boxed by the majority of the room.
 
-Troll agro (shield broadcast) is when you are red/yellow boxed by the frigates, or by the auga/romi in a TCRC. The agro can also split between several targets. Lock up both broadcasts!
+Troll aggro (shield broadcast) is when you are red/yellow boxed by the frigates, or by the Auga/Romi in a TCRC. The aggro can also split between several targets. Lock up all broadcasts!
 
-This site has a live warpout, which means that once the scrams are cleared, the FC will call for the DPS ships to warp themselves to the next broadcast and the Logi will stay behind and align. You should lock up all remaining targets on grid, usually the other logi/fc/booster. And the FC will wing warp when it is safe to do so. You should never warp yourself out of a TCRC unless specifically told to do so!
+This site has a live warpout, which means that once the scrams are cleared, the FC will call for the DPS ships to warp themselves to the next broadcast and the Logi will stay behind and align with prop mods OFF. You should lock up all remaining fleet members on grid, usually the other logi/fc/booster. And the FC will wing warp when it is safe to do so. You should never warp yourself out of a TCRC unless specifically told to do so!
 
 #### The Kundalini Manifest (MOM)
 
