@@ -14,7 +14,7 @@ To attain a badge, ask an FC and they will start the process of you getting it.
 
 ### Elite Badge
 
-Elite fitting or better WITH implants 1-10
+Elite fitting or better WITH implants 1-10  
 AND  
 Skills listed in the Elite Skills tab of the Skills page.
 
