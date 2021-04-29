@@ -57,14 +57,14 @@ export function Menu({ onChangeCharacter, theme, setTheme }) {
             <NavBar.Link exact to="/">
               Waitlist
             </NavBar.Link>
+            <NavBar.Link exact to="/pilot">
+              My Stats
+            </NavBar.Link>
             <NavBar.Link exact to="/skills">
               Skills
             </NavBar.Link>
             <NavBar.Link exact to="/guide">
               Guides
-            </NavBar.Link>
-            <NavBar.Link exact to="/pilot">
-              Pilot
             </NavBar.Link>
             {whoami.access["fleet-view"] && (
               <NavBar.Link exact to="/fleet">
