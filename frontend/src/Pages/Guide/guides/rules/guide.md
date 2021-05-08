@@ -67,7 +67,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
      5. Minimum 10h of logi cruiser
      6. Required to have mic and be able to talk (not just yes/no soundboard)
    - Amulet (waitlist only)
-     1. Full slots 1-10 as per the implant mailing list. 
+     1. Full slots 1-10 as per the implant mailing list.
    - Warp (waitlist only)
      1. Full slots 1-10 as per the implant mailing list.
    - Hybrid (waitlist only)
@@ -115,7 +115,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 4. Basic-Elite
    - Armor Compensations at level 4
 5. Elite Paladin and Kronos
-   - Armor Compensations at level 5 
+   - Armor Compensations at level 5
 6. Bastion fitted ships
    - Having read the [bastion guide](https://t-d-f.one/guide/bastion)
    - Hybrid or amulet implants
