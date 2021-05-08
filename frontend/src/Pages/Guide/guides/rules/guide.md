@@ -71,7 +71,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
    - Warp (waitlist only)
      1. Full slots 1-10 as per the implant mailing list.
    - Hybrid (waitlist only)
-     1. Full slots 1-10 as per the implant mailing list. 
+     1. Full slots 1-10 as per the implant mailing list.
    - Elite
      1. Pilot verified to have Elite skill requirements
      1. Pilot verified to have an Elite fit via ship scan
@@ -120,16 +120,16 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
    - Having read the [bastion guide](https://t-d-f.one/guide/bastion)
    - Hybrid or amulet implants
    - Elite tank skills, armor compensation, mechanics and Hull upgrades to 5
-8. Nestor
+7. Nestor
    - 5 rep stable with active sebo and prop mod off
    - 26.8k+ raw armor hp before boosts
    - 799m/s+ speed before boosts
-9. Logi Cruisers
+8. Logi Cruisers
    - 5.5k+ raw armor hp before boosts
    - cap stable with all mid slots and remote reps active
    - 600m/s+ before boosts
    - Must use SB3 Booster or better on cooldown
-10. During Influence all dps ships must have a 1600mm plate fitted
+9. During Influence all dps ships must have a 1600mm plate fitted
 
 ## Waitlist
 
