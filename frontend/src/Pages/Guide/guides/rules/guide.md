@@ -60,7 +60,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
    1. Ask any FC to give you badges on teamspeak if you qualify.
 2. Definitions
    - Trusted Logi Pilot
-     1. Able to fly a Nestor, no starter (red) skills
+     1. Able to fly a Nestor, no starter flagged skills
      1. Experienced nestor pilots
      1. Should be able to at call out aggro switches and follow lasers
      1. Flown at least 3 training fleets and be signed off at least 3 FCs
