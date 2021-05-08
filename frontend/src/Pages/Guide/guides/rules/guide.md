@@ -57,21 +57,23 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 ## Badges
 
 1. General
-   1. Ask any FC to give you badges if you qualify.
+   1. Ask any FC to give you badges on teamspeak if you qualify.
 2. Definitions
    - Trusted Logi Pilot
-     1. Able to fly a Nestor
+     1. Able to fly a Nestor, no starter (red) skills
+     1. Experienced nestor pilots
      1. Should be able to at call out aggro switches and follow lasers
-     1. Flown at least 3 training fleets and be signed off at least 2 FCs
+     1. Flown at least 3 training fleets and be signed off at least 3 FCs
+     1. Minimum 10h of logi cruiser
      1. Required to have mic and be able to talk (not just yes/no soundboard)
-   - Amulet
-     1. Full slots 1-10 as per the implant mailing list. ESI verification
-   - Warp
-     1. Full slots 1-10 as per the implant mailing list. ESI verification
-   - Hybrid
-     1. Full slots 1-10 as per the implant mailing list. ESI verification
+   - Amulet (waitlist only)
+     1. Full slots 1-10 as per the implant mailing list.
+   - Warp (waitlist only)
+     1. Full slots 1-10 as per the implant mailing list.
+   - Hybrid (waitlist only)
+     1. Full slots 1-10 as per the implant mailing list.
    - Elite
-     1. Pilot verified to have Elite skill requirements via ESI verification
+     1. Pilot verified to have Elite skill requirements
      1. Pilot verified to have an Elite fit via ship scan
      1. Pilot verified to have all 10 Implants
    - Starter
@@ -81,6 +83,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
      1. Replaces Elite
    - Bastion
      1. Pilot has Elite badge
+     1. Pilot has bastion flying requirements
      1. Pilot verified to have Abyssal damage modules
    - Shame
      1. Pilots who have flown with incorrect fits, need to be ship scanned before getting into fleet.
@@ -99,10 +102,9 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 
 ## Fittings
 
-1. If a shark is not meatshield it is required to fit a DDA
-2. No abyssal damage controls
-3. Abyssals are only available and allowed to be fitted on elite ships. This is because you should be getting elite fit first before spending isk on abyssal mods. Also the module must provide more tank or dps then the elite fit to be efficient.
-4. No _Corelum_ A-Type Multispectrum Energized Membrane
+1. No abyssal damage controls
+2. Abyssals are only available and allowed to be fitted on elite ships. This is because you should be getting elite fit first before spending isk on abyssal mods. Also the module must provide more tank or dps then the elite fit to be efficient.
+3. No _Corelum_ A-Type Multispectrum Energized Membrane
 
 ## HQ fit requirements
 
@@ -114,16 +116,20 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
    - Armor Compensations at level 4
 5. Elite Paladin and Kronos
    - Armor Compensations at level 5
-6. Nestor
+6. Bastion fitted ships
+   - Having read the [bastion guide](https://t-d-f.one/guide/bastion)
+   - Hybrid or amulet implants
+   - Elite tank skills, armor compensation, mechanics and Hull upgrades to 5
+7. Nestor
    - 5 rep stable with active sebo and prop mod off
    - 26.8k+ raw armor hp before boosts
    - 799m/s+ speed before boosts
-7. Logi Cruisers
+8. Logi Cruisers
    - 5.5k+ raw armor hp before boosts
    - cap stable with all mid slots and remote reps active
    - 600m/s+ before boosts
    - Must use SB3 Booster or better on cooldown
-8. During Influence all dps ships must have a 1600mm plate fitted
+9. During Influence all dps ships must have a 1600mm plate fitted
 
 ## Waitlist
 
@@ -166,8 +172,10 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 ## SRP
 
 1. SRP is given on approved fits on FC or Logi errors, pilot mistakes are not SRP'able.
-2. If a pilot loses a ship, they have to private message the active FC, send them your killmail and SRP transaction.
-3. You must pay SRP to get SRP, valid until downtime.
+2. FC decided if death is SRP'able especially on bastion, honest mistakes happen.
+3. If a pilot loses a ship, they have to private message the active FC, send them your killmail and SRP transaction.
+4. You must pay SRP to get SRP, valid until downtime.
+5. SRP is payed before you die
 
 ## Skills
 
