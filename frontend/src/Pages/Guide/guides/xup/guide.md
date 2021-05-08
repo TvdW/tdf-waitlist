@@ -96,6 +96,35 @@ New players are obviously going to make mistakes. TDF won't crucify you for it. 
 
 **Being in the wrong place.** Your ship is probably pretty, but turn on tactical overlay and zoom out. If your ship is all alone, it's in the wrong place. It's also in the wrong place if there are lots of red dots and no purple ones. If that's the case, warp out, or you're going to die.
 
+## Upgrading after your first fleet
+
+Upgrading can be done efficiently so you can get the most of your hard earned isk. Here are some DPS upgrading tips:
+
+**Getting out of starter**
+
+1. Get armor compensation skills to lvl 4
+2. Start upgrade to a basic fit. Do the tank and rig change first ! On vindicator you can fit a burst aerator if you add a faction damage control and a second centii-A type you can change the rigs. Similar thing applies to nightmare.
+3. Get full basic fit
+4. Finnish training/injecting the basic skills, including T2 guns.
+5. Pat yourself on the back! You are not longer starter
+
+**Becoming Elite**
+
+1. Upgrade your ship to the elite/advanced fit.
+2. Get a full implant set
+3. Upgrade to the elite/advanced implant fit
+
+a. __Snipers__
+1. Train so you can fly the paladin (armor compensation to V is a requirement))
+2. Fly bastion !
+3. Get your awesome Elite teamspeak badge congratz !
+
+b. __CQC__
+1. Make sure you fly the elite fit.
+2. Train full elite skills
+3. Get your awesome Elite teamspeak badge congratz !
+4. Stay in vindicator or switch to kronos. The elite skills are very similar and the switch should be quick.
+
 ## Still not sure?
 
 Just ask in fleet chat or over Teamspeak.
