@@ -61,11 +61,11 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 2. Definitions
    - Trusted Logi Pilot
      1. Able to fly a Nestor, no starter (red) skills
-     2. Experienced nestor pilots
-     3. Should be able to at call out aggro switches and follow lasers
-     4. Flown at least 3 training fleets and be signed off at least 3 FCs
-     5. Minimum 10h of logi cruiser
-     6. Required to have mic and be able to talk (not just yes/no soundboard)
+     1. Experienced nestor pilots
+     1. Should be able to at call out aggro switches and follow lasers
+     1. Flown at least 3 training fleets and be signed off at least 3 FCs
+     1. Minimum 10h of logi cruiser
+     1. Required to have mic and be able to talk (not just yes/no soundboard)
    - Amulet (waitlist only)
      1. Full slots 1-10 as per the implant mailing list.
    - Warp (waitlist only)
@@ -74,17 +74,17 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
      1. Full slots 1-10 as per the implant mailing list. 
    - Elite
      1. Pilot verified to have Elite skill requirements via E
-     2. Pilot verified to have an Elite fit via ship scan
-     3. Pilot verified to have all 10 Implants
+     1. Pilot verified to have an Elite fit via ship scan
+     1. Pilot verified to have all 10 Implants
    - Starter
      1. Newer pilots with the lowest skill requirements to get into the fleet.
    - Elite Gold
      1. Has Elite Gold skills we require on top of regular Elite requirements, for at least one DPS battleship
-     2. Replaces Elite
+     1. Replaces Elite
    - Bastion
      1. Pilot has Elite badge
-     2. Pilot has bastion flying requirements
-     3. Pilot verified to have Abyssal damage modules
+     1. Pilot has bastion flying requirements
+     1. Pilot verified to have Abyssal damage modules
    - Shame
      1. Pilots who have flown with incorrect fits, need to be ship scanned before getting into fleet.
 
