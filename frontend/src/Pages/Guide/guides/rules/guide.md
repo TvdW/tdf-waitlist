@@ -73,7 +73,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
    - Hybrid (waitlist only)
      1. Full slots 1-10 as per the implant mailing list. 
    - Elite
-     1. Pilot verified to have Elite skill requirements via E
+     1. Pilot verified to have Elite skill requirements
      1. Pilot verified to have an Elite fit via ship scan
      1. Pilot verified to have all 10 Implants
    - Starter
