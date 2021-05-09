@@ -114,12 +114,14 @@ Upgrading can be done efficiently so you can get the most of your hard earned is
 2. Get a full implant set
 3. Upgrade to the elite/advanced implant fit
 
-a. __Snipers__
+a. **Snipers**
+
 1. Train so you can fly the paladin (armor compensation to V is a requirement))
 2. Fly bastion !
 3. Get your awesome Elite TeamSpeak badge, congratulations!
 
-b. __CQC__
+b. **CQC**
+
 1. Make sure you fly the elite fit.
 2. Train full elite skills
 3. Get your awesome Elite teamspeak badge, congratulations!
