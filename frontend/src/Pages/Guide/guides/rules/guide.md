@@ -172,7 +172,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 ## SRP
 
 1. SRP is given on approved fits on FC or Logi errors, pilot mistakes are not SRP'able.
-2. FC decided if death is SRP'able especially on bastion, honest mistakes happen.
+2. FC decides if death is SRP'able especially on bastion, honest mistakes happen.
 3. If a pilot loses a ship, they have to private message the active FC, send them your killmail and SRP transaction.
 4. You must pay SRP to get SRP, valid until downtime.
 5. SRP is payed before you die
