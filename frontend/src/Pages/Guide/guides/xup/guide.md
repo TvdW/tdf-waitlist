@@ -103,7 +103,7 @@ Upgrading can be done efficiently so you can get the most of your hard earned is
 **Getting out of starter**
 
 1. Get armor compensation skills to lvl 4
-2. Start upgrade to a basic fit. Do the tank and rig change first! On vindicator you can fit a burst aerator if you add a faction damage control and a second centii-A type you can change the rigs. Similar thing applies to nightmare.
+2. Start upgrade to a basic fit. Do the tank and rig change first! On vindicator you can fit a burst aerator if you add a faction damage control and a second centii-A type. You can only change the rigs after changing the low slot tank. The nightmare can be upgraded similarly.
 3. Get full basic fit
 4. Finnish training/injecting the basic skills, including T2 guns.
 5. Pat yourself on the back! You are not longer starter
