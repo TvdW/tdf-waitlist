@@ -57,7 +57,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 ## Badges
 
 1. General
-   1. Ask any FC to give you badges on teamspeak if you qualify.
+   1. Ask any FC to give you badges on Teamspeak if you qualify.
 2. Definitions
    - Trusted Logi Pilot
      1. Able to fly a Nestor, no starter flagged skills
@@ -83,7 +83,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
      1. Replaces Elite
    - Bastion
      1. Pilot has Elite badge
-     1. Pilot meets requirements to fly bastion
+     1. Pilot meets bastion fit requirements
      1. Pilot verified to have Abyssal damage modules
    - Shame
      1. Pilots who have flown with incorrect fits, need to be ship scanned before getting into fleet.
@@ -117,9 +117,9 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 5. Elite Paladin and Kronos
    - Armor Compensations at level 5
 6. Bastion fitted ships
-   - Having read the [bastion guide](https://t-d-f.one/guide/bastion)
+   - Having read the [bastion guide](/guide/bastion)
    - Hybrid or amulet implants
-   - Elite tank skills, armor compensation, mechanics and Hull upgrades to 5
+   - Elite tank skills: armor compensation, mechanics and Hull upgrades to 5
 7. Nestor
    - 5 rep stable with active sebo and prop mod off
    - 26.8k+ raw armor hp before boosts
@@ -161,7 +161,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 
 ## Teamspeak
 
-1. You can't be muted on teamspeak.
+1. You can't be muted on Teamspeak.
 2. Pilots are allowed to mute everyone except the VOICING FC.
 3. Your teamspeak and discord must match your in game name.
 
