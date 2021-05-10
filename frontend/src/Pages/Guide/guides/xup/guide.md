@@ -130,7 +130,7 @@ b. **CQC**
 3. Get your awesome Elite teamspeak badge, congratulations!
 4. Stay in Vindicator or switch to Kronos. The elite skills are very similar and the switch should be quick.
 
-After training Elite skills please train specialisation and marauders to 5. These still make a big difference on your DPS output. Especially on a Paladin.
+After training Elite skills please train gun specialisation and marauders to 5. These still make a big difference on your DPS output. Especially on a Paladin.
 
 ## Still not sure?
 
