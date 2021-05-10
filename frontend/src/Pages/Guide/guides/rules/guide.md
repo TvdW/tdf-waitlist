@@ -175,7 +175,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 2. FC decides if death is SRP'able especially on bastion, honest mistakes happen.
 3. If a pilot loses a ship, they have to private message the active FC, send them your killmail and SRP transaction.
 4. You must pay SRP to get SRP, valid until downtime.
-5. SRP is payed before you die
+5. SRP is paid before you die
 
 ## Skills
 
