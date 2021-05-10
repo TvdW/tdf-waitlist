@@ -126,9 +126,11 @@ a. **Snipers**
 b. **CQC**
 
 1. Make sure you fly the elite fit.
-2. Train full elite skills
+2. Train full elite skills.
 3. Get your awesome Elite teamspeak badge, congratulations!
 4. Stay in Vindicator or switch to Kronos. The elite skills are very similar and the switch should be quick.
+
+After training Elite skills please train specialisation and marauders to 5. These still make a big difference on your DPS output. Especially on a Paladin.
 
 ## Still not sure?
 
