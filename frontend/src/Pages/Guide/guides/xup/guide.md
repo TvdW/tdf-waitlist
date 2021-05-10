@@ -104,21 +104,24 @@ Upgrading can be done efficiently so you can get the most of your hard earned is
 
 1. Get armor compensation skills to lvl 4
 2. Start upgrade to a basic fit. Do the tank and rig change first! On vindicator you can fit a burst aerator if you add a faction damage control and a second centii-A type. You can only change the rigs after changing the low slot tank. The nightmare can be upgraded similarly.
-3. Get full basic fit
+3. Get full basic fit.
 4. Finnish training/injecting the basic skills, including T2 guns.
-5. Pat yourself on the back! You are not longer starter
+5. Pat yourself on the back! You are not longer starter.
 
 **Becoming Elite**
 
 1. Upgrade your ship to the elite/advanced fit.
-2. Get a full implant set
-3. Upgrade to the elite/advanced implant fit
+2. Get a full implant set.
+3. Upgrade to the elite/advanced implant fit.
+4. Train gun specialisation, rapid fire and surgical strike to at least 4.
 
 a. **Snipers**
 
 1. Train so you can fly the paladin (armor compensation to V is a requirement))
-2. Fly bastion !
-3. Get your awesome Elite TeamSpeak badge, congratulations!
+2. Train mechanics and Hull upgrades to 5.
+3. Fly bastion!
+4. Train full elite skills, focus on marauders and the gunnery skills to 5 first.
+5. Get your awesome Elite TeamSpeak badge, congratulations!
 
 b. **CQC**
 
