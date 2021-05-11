@@ -57,7 +57,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 ## Badges
 
 1. General
-   1. Ask any FC to give you badges on Teamspeak if you qualify.
+   1. Ask any FC to give you badges on TeamSpeak if you qualify.
 2. Definitions
    - Trusted Logi Pilot
      1. Able to fly a Nestor, no starter flagged skills
