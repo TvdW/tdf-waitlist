@@ -108,27 +108,28 @@ Upgrading can be done efficiently so you can get the most of your hard earned is
 4. Finnish training/injecting the basic skills, including T2 guns. Train gunnery skills first.
 5. Pat yourself on the back! You are not longer starter.
 
-**Becoming Elite**
+**The next step...**
 
 1. Upgrade your ship to the elite/advanced fit.
-2. Get a full implant set.
+2. Get a full implant set, Hybrid being recommended.
 3. Upgrade to the elite/advanced implant fit.
-4. Train gun specialisation, rapid fire and surgical strike to at least 4.
+4. Train gun specialisation, rapid fire and surgical strike to at least 4. Then, train the remainder of the gunnery skills to elite level.
 
 a. **Snipers**
 
-1. Train so you can fly the paladin (armor compensation to V is a requirement))
-2. Train mechanics and Hull upgrades to 5.
-3. Fly bastion!
-4. Train full elite skills, focus on marauders and the gunnery skills to 5 first.
-5. Get your awesome Elite TeamSpeak badge, congratulations!
+1. Train armor compensations to 5.
+2. Train the skills for Paladin.
+3. Train mechanics and Hull upgrades to 5.
+4. Fly bastion!
+5. Train full elite skills, focus on marauders and the gunnery skills to 5 first.
+6. Get your awesome Elite TeamSpeak badge, congratulations!
 
 b. **CQC**
 
 1. Make sure you fly the elite fit.
-2. Train full elite skills.
-3. Get your awesome Elite teamspeak badge, congratulations!
-4. Stay in Vindicator or switch to Kronos. The elite skills are very similar and the switch should be quick.
+2. Decide to go for Kronos and double your dps or to stay in a Vindicator. If you go for kronos you will need armor compensations, mechanics and Hull upgrades to 5.
+3. Train full elite skills.
+4. Get your awesome Elite TeamSpeak badge, congratulations!
 
 After training Elite skills please train your gun specialisation and marauders to 5. These still make a big difference on your DPS output. Especially on a Paladin.
 
