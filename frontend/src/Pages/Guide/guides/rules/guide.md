@@ -105,7 +105,7 @@ Always send complaints to the council linked in the ingame channel **TDF-Officia
 1. No abyssal damage controls
 1. Abyssals are only available and allowed to be fitted on elite ships. This is because you should be getting elite fit first before spending isk on abyssal mods. Also the module must provide more tank or dps then the elite fit to be efficient.
 1. Abyssal module must be better than faction.
-3. No _Corelum_ A-Type Multispectrum Energized Membrane
+1. No _Corelum_ A-Type Multispectrum Energized Membrane
 
 ## HQ fit requirements
 
