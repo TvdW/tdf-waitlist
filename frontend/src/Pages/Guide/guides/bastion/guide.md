@@ -7,20 +7,20 @@ Pilot error is NOT COVERED under SRP. If you Bastion by mistake at the wrong tim
 Bastion is for experienced incursion runners only. This means to use it you MUST:
 
 1.  Know how aggro works in incursions.
-2.  Know all the incursion sites
-3.  Know how logistics work (especially armor reps).
-4.  Know the different Sansha rats.
-5.  Be able to communicate with the FC.
+1.  Know all the incursion sites
+1.  Know how logistics work (especially armor reps).
+1.  Know the different Sansha rats.
+1.  Be able to communicate with the FC.
 
 ## General rules/requirements if you want SRP
 
 1.  **Auto repeat is off at all times.**
-2.  **Bastion in lowest module row, NO SHORTCUT!**
-3.  You do not Bastion until aggro is established on one target at the start of a wave/site.
-4.  If someone dies on-grid you are to turn Bastion off for the rest of the site.
-5.  Full Hybrid or Amulet pod is required for SRP.
-6.  Elite tank skills, armor compensation, mechanics and Hull upgrades to 5.
-7.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
+1.  **Bastion in lowest module row, NO SHORTCUT!**
+1.  You do not Bastion until aggro is established on one target at the start of a wave/site.
+1.  If someone dies on-grid you are to turn Bastion off for the rest of the site.
+1.  Full Hybrid or Amulet pod is required for SRP.
+1.  Elite tank skills, armor compensation, mechanics and Hull upgrades to 5.
+1.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
 
 ## TPPH
 
@@ -41,9 +41,9 @@ Kronos: Microwarpdrive to between second and third wave (the furthest small towe
 TCRCs are special, and you're mostly likely to grab aggro due to your high dps. If you get aggro while in Bastion do not panic, broadcast for shield so the logis can lock you, and provide a countdown in fleet chat or voice comms. A second before coming out you will re-broadcast for armor, so logi can start spamming reps. If you fail to do this, you will not get SRP.
 
 1.  After aggro is on the meat shield and the meat shield is stable you are able to do one cycle on the beacon. (I’d recommend putting the meat shield on your watch list because if you need to battlerep him do it! If he dies and you’re in Bastion, you’re most likely the next target and we can’t rep you.)
-2.  During the one cycle kill tagged Deltoles/Outunis. After the cycle is done jump to the left of the tower.
-3.  WAIT for the aggro swap from the meat shield to whoever but wait for full switch!!! Once this happens you should have enough time for 1 cycle of bastion. If you are quick you CAN get 2 cycles but please get used to 1 cycle before trying 2.
-4.  After each FULL switch you can Bastion 1 cycle. DO NOT Bastion when the tower is in hull.
+1.  During the one cycle kill tagged Deltoles/Outunis. After the cycle is done jump to the left of the tower.
+1.  WAIT for the aggro swap from the meat shield to whoever but wait for full switch!!! Once this happens you should have enough time for 1 cycle of bastion. If you are quick you CAN get 2 cycles but please get used to 1 cycle before trying 2.
+1.  After each FULL switch you can Bastion 1 cycle. DO NOT Bastion when the tower is in hull.
 
 Be very mindfull of your fellow bastion pilots when jumping from the beacon, be aligned correctly right between the tower and the Sansha Starbase Shield Transfer Array (balls) the or there will be bumps !
 
