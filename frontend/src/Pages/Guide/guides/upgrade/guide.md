@@ -1,4 +1,5 @@
 
+
 # Upgrading
 
 If you're low on ISK, you can start by getting the Megathron. If you do, it's important that you focus on upgrading to another ship as soon as possible. TDF works with a tier system. Pilots can be categorized as starter, basic, elite and elite gold.
@@ -20,6 +21,8 @@ All rigs and tank modules must be changed to match the basic fit These modules i
 3. Train starter-colored skills starting with warp drive operation, gunnery skills 
 
 4. Train and get T2 guns and the remainder of the basic fit modules starting with Stabilizers/heat sinks
+
+You are not longer starter and will be placed in a normal squad, congratulations!
 
 ## BASIC
 
@@ -50,6 +53,6 @@ Now you are ELITE !
 1. Train marauders 5
 2. Train other skills to 5 that makes you apply more DPS like your gun specialization 5
 3. Get some abyssals on [mutaplasmid.space](https://mutaplasmid.space/)
-4. Get every skill on the skillchecker to lvl 5 to become **ELITE GOLD** this tier is not required and now you can consider branching out to another ship. Maybe try logistics?
+4. You can now get every skill on the skillchecker to **ELITE GOLD** level this tier is not required and now you can consider branching out to another ship. Maybe try logistics?
 
 
