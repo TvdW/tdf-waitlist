@@ -1,35 +1,55 @@
+
 # Upgrading
 
-If you're low on ISK, you can start by getting the **Megathron**. If you do, it's important that you focus on upgrading to another ship as soon as possible.
+If you're low on ISK, you can start by getting the Megathron. If you do, it's important that you focus on upgrading to another ship as soon as possible. TDF works with a tier system. Pilots can be categorized as starter, basic, elite and elite gold.
 
-## Starter
 
-**Get a starter fit**. You will need level 2 armor compensation skills to be able to join, and you need to be able to fit all the modules from the fit.
+## STARTER
 
-## Basic
+1. Get a Nightmare or Vindicator
 
-**Upgrade to basic** as soon as you can. This will involve training your _armor compensation_ skills, together with the other skills marked as starter-level on the skill check page. Prioritize training these skills before training the additional skills needed to fly the basic fit, then upgrade the modules. Remember that when you change tank modules or rigs you need to change them all at the same time, or you risk creating holes in your armor resistances. You can leave upgrading the drones for later.
+2. Armor compensation Skills lvl 4
 
-## Advanced
+3. __Tank and rig change to basic fit or better__ (do this upgrade all at once!)
+All rigs and tank modules must be changed to match the basic fit These modules include:
+	- Damage Control Units
+	- Multispectrum Coatings
+	- Burst Aerator Rigs
+	- Resistance Rigs (Thermal, EM, Kinetic, Explosive)
 
-Once you're out of the starter squad, **upgrade to the advanced fit**. Your skills will already be sufficient, so buy those new modules!
+3. Train starter-colored skills starting with warp drive operation, gunnery skills 
 
-Then, **get your Hybrid implants**. The recommended order for these is slot 10 first (6% extra damage), then slot 8 and 9 (another 6% DPS), then slot 7 (better tracking of targets), followed by slots 1-6. Once your set is complete you can upgrade to the `_hybrid` fit, which adds a lot of damage!
+4. Train and get T2 guns and the remainder of the basic fit modules starting with Stabilizers/heat sinks
 
-If you've been flying a Nightmare, now is a good time to consider getting the **Paladin** instead. Your expensive modules can be transferred, so you only need to train a few skills to fly the ship, and then buy the hull. Once you do get the Paladin, upgrade your armor compensation skills to level 5, which are required for the Elite fit!
+## BASIC
 
-## Elite
+1. Get the Elite fit (or advanced nightmare)
+   & Train/inject elite level gunnery skills
+3. Get the Hybrid implant set
+   The recommended order for these is slot 10 first (6% extra damage), then slot 8 and 9 (another 6% DPS), then slot 7 (better tracking of targets), followed by slots 1-6. Once your set is complete you can upgrade to the _hybrid fit, which adds a lot of damage!
+5. Train bastion requirements: 
+   * Armor Compensations to 5
+   * Mechanics and hull upgrades 5
+   * Paladin/Kronos skills
+   
+    (Or go for elite vindicator, train remainder of the skills)
+    
+5. Transfer into a bastion Kronos or a Paladin
 
-Now it's time to get the **elite fit**. Some of the elite fits require special skills (the Paladin and Kronos require level 5 armor compensation skills) but you do not need to have every skill at elite level to fly the fit! Go buy those upgrades while still training the non-mandatory skills.
+4. Train marauders 4
 
-This is a good time to **get abyssal modules**. [mutaplasmid.space](https://mutaplasmid.space/) is a good website for finding contracts, just make sure you buy the good ones!
+5. Train all remaining elite skills with priority based on what you want more, capacitor/speed/tracking etc
 
-Finish by getting all the **elite skills**. The order is up to you, but we recommend getting the skills that give the biggest damage increase first, and of course maximize your survivability by upgrading the tank skills.
 
-## Branch out
 
-Once you're **done upgrading**, consider branching out to another ship. Maybe try logistics?
 
-## Elite gold
 
-Finally, once you can fly multiple ships at elite level, get your **elite gold** badge to show off your awesomeness.
+## ELITE
+Now you are ELITE !
+
+1. Train marauders 5
+2. Train other skills to 5 that makes you apply more DPS like your gun specialization 5
+3. Get some abyssals on [mutaplasmid.space](https://mutaplasmid.space/)
+4. Get every skill on the skillchecker to lvl 5 to become **ELITE GOLD** this tier is not required and now you can consider branching out to another ship. Maybe try logistics?
+
+
