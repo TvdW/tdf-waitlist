@@ -19,7 +19,7 @@ Bastion is for experienced incursion runners only. This means to use it you MUST
 3.  You do not Bastion until aggro is established on one target at the start of a wave/site.
 4.  If someone dies on-grid you are to turn Bastion off for the rest of the site.
 5.  Full Hybrid or Amulet pod is required for SRP.
-6.  Basic tank skills. (Armor comps to level 4)
+6.  All tank skills must be at basic level for your chosen ship or higher (check skills page)
 7.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
 
 # Site guidance
@@ -46,7 +46,7 @@ Be very mindful of your fellow bastion pilots when jumping from the beacon, be a
 
 ![](bumpwarning.png)
 
-## Additional tips:
+### Additional tips:
 
 Late Entry - If you enter a TCRC late and the aggro switches to you on the beacon you must check to see if your logi are in rep range, if they are not because they already burned to the tower, or they are quickly approaching it then you must jump immediately and make them aware of the situation.
 
