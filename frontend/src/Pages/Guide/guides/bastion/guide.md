@@ -22,20 +22,21 @@ Bastion is for experienced incursion runners only. This means to use it you MUST
 6.  All tank skills must be at basic level for your chosen ship or higher (check skills page)
 7.  Be aware when using the micro jump drive of your direction, and of bumps. If you jump poorly and die due to being out of logi range, this is pilot error and WILL NOT be covered under SRP. (Being bumped by another fleet member is also not covered under SRP). If you're not confident, DO NOT USE IT.
 
-# Site guidance
-## TPPH
+## Site guidance
+
+### TPPH
 
 First two rooms: burn with microwarpdrive towards the out gate, once you reach max speed turn off MWD and bastion for 1 cycle to slide, use high DPS ammo where possible. Once bastion cycle finishes continue to burn to out gate.
 
 Third room: Bastion 1 cycle on beacon, then align and jump towards the left-upper side of the tower. Burn 1 microwarpdrive cycle back towards spawn. Paladins want to end up ABOVE the 2nd/3rd wave spawns.
 
-## NRF
+### NRF
 
 Paladin: Bastion 1 cycle on the beacon, then angle up about 20 degrees and jump. (You want to try and put yourself between the sniper spawns for 2nd and 3rd wave). Stay here until 4th wave and bastion when safe during 2nd and 3rd waves, on 4th wave jump towards sniper targets as per FC commands.
 
 Kronos: Microwarpdrive towards 2nd and 3rd wave (the furthest small tower) and if there is time bastion cycle/slide 1 time. Once at the anchor Bastion when safe until the middle of 3rd wave (or sooner) to allow for your final burn to 4th wave CQC anchor spot (Do not over bastion in Mara wave as your DPS is more important during 4th wave)
 
-## TCRC
+### TCRC
 
 TCRCs are special, and you are mostly likely to grab aggro due to your high dps. If you get aggro while in Bastion do not panic, broadcast for shield so logi can lock you, and provide a countdown in fleet chat or voice comms. A second before coming out you will re-broadcast for armor, so logi can spam reps. If you fail to do this, you will not get SRP. 
 1.	After aggro is on the meat shield and the meat shield is stable you can do one cycle on the beacon. (We recommend putting the meat shield on your watch list because if you need to battle-rep him, do it! If he dies and you are in Bastion, you are most likely the next target and we cannot rep you.)
@@ -46,7 +47,7 @@ Be very mindful of your fellow bastion pilots when jumping from the beacon, be a
 
 ![](bumpwarning.png)
 
-### Additional tips:
+## Additional tips:
 
 Late Entry - If you enter a TCRC late and the aggro switches to you on the beacon you must check to see if your logi are in rep range, if they are not because they already burned to the tower, or they are quickly approaching it then you must jump immediately and make them aware of the situation.
 
