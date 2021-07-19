@@ -38,11 +38,12 @@ Kronos: Microwarpdrive towards 2nd and 3rd wave (the furthest small tower) and i
 
 ### TCRC
 
-TCRCs are special, and you are mostly likely to grab aggro due to your high dps. If you get aggro while in Bastion do not panic, broadcast for shield so logi can lock you, and provide a countdown in fleet chat or voice comms. A second before coming out you will re-broadcast for armor, so logi can spam reps. If you fail to do this, you will not get SRP. 
-1.	After aggro is on the meat shield and the meat shield is stable you can do one cycle on the beacon. (We recommend putting the meat shield on your watch list because if you need to battle-rep him, do it! If he dies and you are in Bastion, you are most likely the next target and we cannot rep you.)
-2.	During the one cycle kill tagged Deltoles/Outunis in order. After the cycle is done jump to the left of the tower.
-3.	Keep shooting but wait for the aggro swap from the meat shield to whomever, WAIT for the full switch!!! Once this happens you should have enough time for 1 cycle of bastion. If you are quick, you CAN get 2 cycles but please get used to 1 cycle before trying 2.
-4.	After each FULL switch you can Bastion 1 cycle. DO NOT Bastion when the tower is in hull unless otherwise instructed by FC.
+TCRCs are special, and you are mostly likely to grab aggro due to your high dps. If you get aggro while in Bastion do not panic, broadcast for shield so logi can lock you, and provide a countdown in fleet chat or voice comms. A second before coming out you will re-broadcast for armor, so logi can spam reps. If you fail to do this, you will not get SRP.
+
+1. After aggro is on the meat shield and the meat shield is stable you can do one cycle on the beacon. (We recommend putting the meat shield on your watch list because if you need to battle-rep him, do it! If he dies and you are in Bastion, you are most likely the next target and we cannot rep you.)
+2. During the one cycle kill tagged Deltoles/Outunis in order. After the cycle is done jump to the left of the tower.
+3. Keep shooting but wait for the aggro swap from the meat shield to whomever, WAIT for the full switch!!! Once this happens you should have enough time for 1 cycle of bastion. If you are quick, you CAN get 2 cycles but please get used to 1 cycle before trying 2.
+4. After each FULL switch you can Bastion 1 cycle. DO NOT Bastion when the tower is in hull unless otherwise instructed by FC.
 Be very mindful of your fellow bastion pilots when jumping from the beacon, be aligned correctly right between the tower and the Sansha Starbase Shield Transfer Array (balls) or there will be bumps! Patience is key and if waiting a moment longer prevents a bump then do so.
 
 ![](bumpwarning.png)
