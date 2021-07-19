@@ -47,14 +47,10 @@ Be very mindful of your fellow bastion pilots when jumping from the beacon, be a
 
 ![](bumpwarning.png)
 
-## Additional tips:
+## Additional tips
 
-Late Entry - If you enter a TCRC late and the aggro switches to you on the beacon you must check to see if your logi are in rep range, if they are not because they already burned to the tower, or they are quickly approaching it then you must jump immediately and make them aware of the situation.
-
-Split Aggro Entrance - If on a normal TCRC entrance you accidentally get aggro instead of the meat shield make sure to check if you have enough capacitor to jump, and if not ask for battle cap. If you have the Outuni aggro you should have already broadcasted for capacitor. Nestors will be burning towards the tower the moment they enter site so do not get left behind.
-
-MJD Cancel - If you MJD and get bumped you can cycle your bastion module on to prevent the jump from happening, but be aware this will leave you in your current spot and in bastion, so stop shooting and do not pull aggro, you will have the full MJD cooldown timer and your bastion cycle time, our recomendation at this point is to burn with microwarpdrive as normal to anchor once your bastion cycle ends.
-
-MWD Trick - You can give yourself an accelerated warp out using your MWD when nearing the end of bastion cycles, once your bastion cycle is at 10 seconds or less cycle your MWD once (make sure to red cycle it!), when your bastion cycle ends initiate warp to next destination and when your MWD cycle ends you will in effect insta warp out.
-
-Stuck Bastion - If your Bastion module gets stuck on, a workaround that has worked (but not in all cases) has been to move the module to a different row on your module interface.
+* **Late Entry**. If you enter a TCRC late and the aggro switches to you on the beacon you must check to see if your logi are in rep range, if they are not because they already burned to the tower, or they are quickly approaching it then you must jump immediately and make them aware of the situation.
+* **Split Aggro Entrance**. If on a normal TCRC entrance you accidentally get aggro instead of the meat shield make sure to check if you have enough capacitor to jump, and if not ask for battle cap. If you have the Outuni aggro you should have already broadcasted for capacitor. Nestors will be burning towards the tower the moment they enter site so do not get left behind.
+* **MJD Cancel**. If you MJD and get bumped you can cycle your bastion module on to prevent the jump from happening, but be aware this will leave you in your current spot and in bastion, so stop shooting and do not pull aggro, you will have the full MJD cooldown timer and your bastion cycle time, our recomendation at this point is to burn with microwarpdrive as normal to anchor once your bastion cycle ends.
+* **MWD Trick**. You can give yourself an accelerated warp out using your MWD when nearing the end of bastion cycles, once your bastion cycle is at 10 seconds or less cycle your MWD once (make sure to red cycle it!), when your bastion cycle ends initiate warp to next destination and when your MWD cycle ends you will in effect insta warp out.
+* **Stuck Bastion**. If your Bastion module gets stuck on, a workaround that has worked (but not in all cases) has been to move the module to a different row on your module interface.
