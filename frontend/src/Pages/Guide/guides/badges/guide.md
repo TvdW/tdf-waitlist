@@ -7,7 +7,7 @@ Badges are a tool mostly for FCs to quickly see what the fleet composition looks
 ### Elite Badge
 Elite fitting or better WITH implants 1-10 and all skills to elite or better for the applicable ship. (See your skills page)
 
-![](e.png)
+![](BADGE_E.png)
 ---
 
 ### Elite Gold Badge
@@ -19,55 +19,55 @@ Elite badge pre requisites plus all skills to elite gold for the applicable ship
 ### Bastion
 Elite badge pre requisites for a Bastion-capable ship plus abyssal damage modules (better than faction).
 
-![](bastion.png)
+![](BADGE_B.png)
 ---
 
 ### Logistics Specialist
 Permitted to fly Nestor Logistics.
 
-![](l.png)
+![](BADGE_L.png)
 ---
 
 ### Starter Pilot
 The player is new to TDF and/or incursions.
 
-![](alpha.png)
+![](BADGE_S.png)
 ---
 
 ### Council Member
 Member of the TDF council, which makes decisions that impact the community.
 
-![](c.png)
+![](BADGE_C.png)
 ---
 
 ### Fleet Commander Trainer
 Permitted to run (wait what can they do again?)
 
-![](trainer.png)
+![](BADGE_Tgold.png)
 ---
 
 ### Headquarters, Assault & Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Headquarters, Assault and Vanguard sites with SRP cover.
 
-![](hq.png)
+![](BADGE_H.png)
 ---
 
 ### Assault & Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Assault and Vanguard sites with SRP cover.
 
-![](as.png)
+![](BADGE_A.png)
 ---
 
 ### Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Vanguard sites with SRP cover.
 
-![](vg.png)
+![](BADGE_V.png)
 ---
 
 ### Trainee Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into sites with SRP cover provided an FC with the badge relevant to the site is in the fleet.
 
-![](trainee.png)
+![](BADGE_Tgrey.png)
 ---
 
 ### Back-Channel
