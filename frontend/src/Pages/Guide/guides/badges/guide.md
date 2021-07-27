@@ -74,5 +74,5 @@ Permitted to use TDF comms to run fleets and to take a fleet into sites with SRP
 ### Back-Channel
 Pilot has access to the back comms channel on TeamSpeak.
 
-![](b.png)
+![](BADGE_Bgreen.png)
 ---
