@@ -41,7 +41,8 @@ Member of the TDF council, which makes decisions that impact the community.
 ---
 
 ### Fleet Commander Trainer
-Permitted to run (wait what can they do again?)
+Permitted to use TDF comms to run fleets and to take a fleet into Headquarters, Assault and Vanguard sites with SRP cover.
+Can promote Trainee FC's to full HQ/AS/VG tags and conduct bus fleets for trainee FC's.
 
 ![](BADGE_Tgold.png)
 ---
