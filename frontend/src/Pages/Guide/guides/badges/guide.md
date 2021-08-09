@@ -86,13 +86,13 @@ Pilot has Hybrid implant set (Amulet 1-5 Hardwires 6-10), only visible on X-UP p
 ### Amulet Implant Set
 Pilot has Amulet implant set including relevant hardwires, only visible on X-UP page.
 
-![](h.png)
+![](a.png)
 ---
 
 ### Warpspeed Implant Set
 Pilot has Ascendancy implant set including relevant hardwires, only visible on X-UP page.
 
-![](h.png)
+![](w.png)
 ---
 
 ### Alpha
