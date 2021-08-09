@@ -94,3 +94,4 @@ Pilot has Amulet implant set including relevant hardwires, only visible on X-UP 
 Pilot has Ascendancy implant set including relevant hardwires, only visible on X-UP page.
 
 ![](w.png)
+
