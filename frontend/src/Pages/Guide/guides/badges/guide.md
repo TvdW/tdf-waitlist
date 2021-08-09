@@ -7,7 +7,7 @@ Badges are a tool mostly for FCs to quickly see what the fleet composition looks
 ### Elite Badge
 Elite fitting or better WITH implants 1-10 and all skills to elite or better for the applicable ship. (See your skills page)
 
-![](BADGE_E.png)
+![](e.png)
 ---
 
 ### Elite Gold Badge
@@ -19,60 +19,60 @@ Elite badge pre requisites plus all skills to elite gold for the applicable ship
 ### Bastion
 Elite badge pre requisites for a Bastion-capable ship plus abyssal damage modules (better than faction).
 
-![](BADGE_B.png)
+![](bastion.png)
 ---
 
 ### Logistics Specialist
 Permitted to fly Nestor Logistics.
 
-![](BADGE_L.png)
+![](l.png)
 ---
 
 ### Starter Pilot
 The player is new to TDF and/or incursions.
 
-![](BADGE_S.png)
+![](starter.png)
 ---
 
 ### Council Member
 Member of the TDF council, which makes decisions that impact the community.
 
-![](BADGE_C.png)
+![](c.png)
 ---
 
 ### Fleet Commander Trainer
 Permitted to use TDF comms to run fleets and to take a fleet into Headquarters, Assault and Vanguard sites with SRP cover.
 Can promote Trainee FC's to full HQ/AS/VG tags and conduct bus fleets for trainee FC's.
 
-![](BADGE_Tgold.png)
+![](trainer.png)
 ---
 
 ### Headquarters, Assault & Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Headquarters, Assault and Vanguard sites with SRP cover.
 
-![](BADGE_H.png)
+![](hq.png)
 ---
 
 ### Assault & Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Assault and Vanguard sites with SRP cover.
 
-![](BADGE_A.png)
+![](as.png)
 ---
 
 ### Vanguard Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into Vanguard sites with SRP cover.
 
-![](BADGE_V.png)
+![](vg.png)
 ---
 
 ### Trainee Fleet Commander
 Permitted to use TDF comms to run fleets and to take a fleet into sites with SRP cover provided an FC with the badge relevant to the site is in the fleet.
 
-![](BADGE_Tgrey.png)
+![](trainee.png)
 ---
 
 ### Back-Channel
 Pilot has access to the back comms channel on TeamSpeak.
 
-![](BADGE_Bgreen.png)
+![](b.png)
 ---
