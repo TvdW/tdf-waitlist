@@ -1,10 +1,12 @@
 # Anchoring
 
-##TPPH
-![](tpph.png)
+## TPPH
+![](TPPH_R1.png)
+![](TPPH_R2.png)
+![](TPPH_R3.png)
 
-##NRF
-![](nrf.png)
+## NRF
+![](NRF.png)
 
-##TCRC
-![](tcrc.png)
+## TCRC
+![](TCRC.png)
