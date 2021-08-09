@@ -76,3 +76,27 @@ Pilot has access to the back comms channel on TeamSpeak.
 
 ![](b.png)
 ---
+
+### Hybrid Implant Set
+Pilot has Hybrid implant set (Amulet 1-5 Hardwires 6-10), only visible on X-UP page.
+
+![](h.png)
+---
+
+### Amulet Implant Set
+Pilot has Amulet implant set including relevant hardwires, only visible on X-UP page.
+
+![](h.png)
+---
+
+### Warpspeed Implant Set
+Pilot has Ascendancy implant set including relevant hardwires, only visible on X-UP page.
+
+![](h.png)
+---
+
+### Alpha
+Pilot skill's are at lowest allowable level to enter fleet (Train those red skills to remove this ASAP!)
+
+![](alpha.png)
+---
