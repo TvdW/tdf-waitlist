@@ -7,17 +7,17 @@ Note: All images are shown as a top down overview of each room/site with the tac
 
 ### Legend
 Symbol | Meaning
--------|--------
+:---:|:---:
 ![](Anchor.PNG) | Anchor point
 ![](Bastion.PNG) | Bastion point
 ![](Flight_Path.PNG) | Flight path
+![](MJD.PNG) | MJD Direction
+![](Landing_Point.PNG) | MJD Landing point
+![](Elevation.PNG) | Elevation Distance
 K1/2/3 | Kronos (pink)
 V1/2/3/4 | Vindicator (blue)
 S1/2/3 | Paladin/Nightmare (yellow)
 L1 | Logistics (green)
-![](MJD.PNG) | MJD Direction
-![](Landing_Point.PNG) | MJD Landing point
-![](Elevation.PNG) | Elevation Distance
 
 ---
 ### TPPH R1
