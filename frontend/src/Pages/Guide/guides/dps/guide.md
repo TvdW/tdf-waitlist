@@ -89,4 +89,4 @@ Nigthmare:
 * Once fleet enters site you should be sitting still and shooting Deltole and Outuni in order, once the Deltoles are dead you can start your align to the anchor (V2) ensuring that you wont bump anyone, once you confirm your clear activate MJD to jump to the anchor. When you land press Ctrl+Space to stop your ship then shoot the tower till it dies *"Remember Nightmares must finish off Outuni before shooting tower"*.
 
 Logi:
-* You should be immediately burning to your anchor (L1) whilst also providing reps to the meatshield at the start of the site, Nestors have right of way but if avoidable should not bump DPS.
+* Immediately burn to your anchor (L1) whilst also providing reps to the meatshield at the start of the site, Nestors have right of way but if avoidable should not bump DPS.
