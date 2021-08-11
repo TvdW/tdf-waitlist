@@ -4,8 +4,9 @@ Below you will find visual and written guidance on anchoring, bastion points and
 Note: All images are shown as a top down overview of each room/site with the tactical overlay enabled.
 
 ## Quicknav
-
-[Goto TPPH Section](#tpph)
+[TPPH R1](#tpph-r1) [TPPH R2](#tpph-r2) [TPPH R3](#tpph-r3
+[NRF](#nrf)
+[tcrc](#tcrc)
 
 ## Legend
 Symbol | Meaning
@@ -22,7 +23,7 @@ L1 | Logistics (green)
 ![](Elevation.PNG) | Elevation Distance
 
 ---
-### TPPH
+### TPPH R1
 ![](TPPH_R1.png)
 
 Bastions:
@@ -37,6 +38,7 @@ Nightmare:
 Logi:
 *  Turn left, burn to outgate (L1). 
 ---
+### TPPH R2
 ![](TPPH_R2.png)
 
 Bastions:
@@ -51,6 +53,7 @@ Nightmare:
 Logi:
 * Burn to outgate (L1). 
 ---
+### TPPH R3
 ![](TPPH_R3.png)
 
 Bastions:
@@ -65,6 +68,7 @@ Nightmare:
 Logi:
 *  Its important to get away from the beacon quickly here, use the gate sliding technique so you can get to your anchor (L1) asap. With everyone in bastion on the beacon and most of the NPC's out of range, there is low damage from NPC's, however should a pilot make a mistake and MJD into the aggro you want to be burning into rep range as fast as possible. Make sure to elevate your anchor point so that you are inline with top of tower roughly.
 ---
+### NRF
 ![](NRF.png)
 
 Bastions:
@@ -80,6 +84,7 @@ Nightmare:
 Logi:
 * Burn forward roughly 65km (L1) so that you are inline with the tower and the smaller structure at (K1) anchor. You want to be about 15km from the structure at (K1), be aware that bastions on the beacon (if they have aggro) will be jumping ahead of you so you need to be in position quickly to apply reps when they land.
 ---
+### TCRC
 ![](TCRC.png)
 
 Due to the danger posed by this site, TCRC entrances and exits will be staged, **FOLLOW FC COMMANDS!**
