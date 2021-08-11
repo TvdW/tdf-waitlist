@@ -24,7 +24,7 @@ Bastions:
 * Turn left, burn towards outgate (K1 & S1), start with Scorch/Null, bastion as soon as you reach top speed, you should be roughly 1/3 through your burn when you bastion (see x), this lets you drift towards outgate while maintaining bastion. Paladin's should use Conflag during bastion, Null for Kronos (unless all three battleships are within Void range).
 
 Vindi:
-* Pick a Romi or Osti and burn to within Void range (V1) shooting Null along the way, web seperate targets and call your webs, "drive-by" shoot these targets, but use common sense, if fleet is slow, stay and shoot it with Void longer. If someone is already going for your target, pick one which doesnt have a Vindi friend! Once your target reaches armor burn to outgate (V2).
+* Pick a Osti and burn to within Void range (V1) shooting Null along the way, web seperate targets and call your webs, "drive-by" shoot these targets, but use common sense, if fleet is slow, stay and shoot it with Void longer. If someone is already going for your target, pick one which doesnt have a Vindi friend! Once your target reaches armor burn to outgate (V2).
 
 Nightmare:
 * Turn left, burn to outgate (S1), switch to Conflag where appropriate to apply max DPS.
