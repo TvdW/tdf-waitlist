@@ -3,12 +3,9 @@ Below you will find visual and written guidance on anchoring, bastion points and
 
 Note: All images are shown as a top down overview of each room/site with the tactical overlay enabled.
 
-## Quicknav
-[TPPH R1](#tpph-r1) [TPPH R2](#tpph-r2) [TPPH R3](#tpph-r3
-[NRF](#nrf)
-[tcrc](#tcrc)
+**Quicknav** - [TPPH Room 1](#tpph-r1) / [TPPH Room 2](#tpph-r2) / [TPPH Room 3](#tpph-r3) / [NRF](#nrf) / [TCRC](#tcrc)
 
-## Legend
+### Legend
 Symbol | Meaning
 -------|--------
 ![](Anchor.PNG) | Anchor point
