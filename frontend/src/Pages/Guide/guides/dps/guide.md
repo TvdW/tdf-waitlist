@@ -80,13 +80,13 @@ Logi:
 Due to the danger posed by this site, TCRC entrances and exits will be staged, FOLLOW FC COMMANDS!
 
 Bastions:
-* Once fleet enters site wait for the Meatshield to confirm they have established full aggro, once confirmed bastion for one cycle only on the beacon (S1 & K1), shoot Deltoles in order then Outunis and align toward anchor point (S2 & K2). Once bastion cycle ends check you are correctly aligned toward the next anchor and are not likley to bump anyone, MJD to (S2 & K2) to land between the "bubbles" and the tower. Once in position at (S2 & K2) bastion for one cycle and wait for the aggro to switch to a new target, once this happens you can freely bastion for two cycles until the next aggro switch "note however you cannot delay on cycles, so if unsure then only go for one cycle".
+* Once fleet enters site wait for the Meatshield to confirm they have established full aggro, once confirmed bastion for one cycle only on the beacon (S1 & K1), shoot Deltoles in order then Outunis and align toward anchor point (S2 & K2). Once bastion cycle ends check you are correctly aligned toward the next anchor and are not likley to bump anyone, MJD to (S2 & K2) to land between the "bubbles" and the tower *"Remember Paladins must finish off Outuni before shooting tower"*. Once in position at (S2 & K2) bastion for one cycle and wait for the aggro to switch to a new target, once this happens you can freely bastion for two cycles until the next aggro switch "note however you cannot delay on cycles, so if unsure then only go for one cycle". Repeat the bastion process until tower pops, if however the tower is half hull or less do not do anymore bastion cycles.
 
 Vindi:
-*
+* Once fleet enters site you should be sitting still and shooting Deltole and Outuni in order, once the Deltoles are dead you can start your align to the anchor (V2) ensuring that you wont bump anyone, once you confirm your clear activate MJD to jump to the anchor. When you land press to Ctrl+Space to stop your ship then shoot the tower till it dies, web Schmaeels when they get in range.
 
 Nigthmare:
-*
+* Once fleet enters site you should be sitting still and shooting Deltole and Outuni in order, once the Deltoles are dead you can start your align to the anchor (V2) ensuring that you wont bump anyone, once you confirm your clear activate MJD to jump to the anchor. When you land press Ctrl+Space to stop your ship then shoot the tower till it dies *"Remember Nightmares must finish off Outuni before shooting tower"*.
 
 Logi:
-*
+* You should be immediately burning to your anchor (L1) whilst also providing reps to the meatshield at the start of the site, Nestors have right of way but if avoidable should endeavour not to bump DPS.
