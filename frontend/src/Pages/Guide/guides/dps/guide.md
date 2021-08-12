@@ -1,7 +1,7 @@
 # Anchoring
-Below you will find visual and written guidance on anchoring, bastion points and when to Micro Jump Drive in the new meta, but please remember this is for guidance only, different situations and events can and will change the course of your anchoring, bastion activation and MJD, so it is by no means a "one and only" guide. Hopefully however it will help newer pilots to understand where and when to anchor, bastion & MJD. All guidance is subject to change too so check back as we continue to figure out the best way to keep our isk/h going up. **Remember, FC intructions overule any guidance!**
+Below you will find visual and written guidance on anchoring, bastion points and when to Micro Jump Drive in the new meta. However please remember this is for guidance only, different situations and events can and will change the course of your anchoring, bastion activation and MJD, so it is by no means a "one and only" guide. Hopefully it will serve to help newer pilots to understand where and when to anchor, bastion & MJD. All guidance is subject to change too so check back as we continue to figure out the best way to keep our isk/h going up. **Remember, FC intructions overule any guidance!**
 
-Note: All images are shown as a top down overview of each room/site with the tactical overlay enabled.
+Note: All images are shown as a top down overview of each room/site with the tactical overlay enabled. Each picture shows the start of 1st wave for each site/room.
 
 **Quicknav** - [TPPH Room 1](#tpph-r1) / [TPPH Room 2](#tpph-r2) / [TPPH Room 3](#tpph-r3) / [NRF](#nrf) / [TCRC](#tcrc)
 
@@ -27,7 +27,7 @@ Bastions:
 * Turn left, burn towards outgate (K1 & S1), start with Scorch/Null, bastion as soon as you reach top speed, you should be roughly 1/3 through your burn when you bastion (see x), this lets you drift towards outgate while maintaining bastion. Paladin's should use Conflag during bastion, Null for Kronos (unless all three battleships are within Void range).
 
 Vindi:
-* Pick a Osti and burn to within Void range (V1) shooting Null along the way, web seperate targets and call your webs, "drive-by" shoot these targets, but use common sense, if fleet is slow, stay and shoot it with Void longer. If someone is already going for your target, pick one which doesnt have a Vindi friend! Once your target reaches armor burn to outgate (V2).
+* Pick an Osti and burn to within Void range (V1) shooting Null along the way, web separate targets and call your webs, "drive-by" shoot these targets but use common sense, if fleet is slow, stay and shoot it with Void longer. If someone is already going for your target, pick one which does not have a Vindi friend! Once your target reaches armor burn to outgate (V2).
 
 Nightmare:
 * Turn left, burn to outgate (S1), switch to Conflag where appropriate to apply max DPS.
