@@ -3,7 +3,7 @@ import { AuthContext, ToastContext } from "../../contexts";
 import { Confirm } from "../../Components/Modal";
 import { Button, Buttons, InputGroup, NavButton, Select } from "../../Components/Form";
 import { Content, Title } from "../../Components/Page";
-import { apiCall, errorToaster, toaster } from "../../api";
+import { apiCall, errorToaster, toaster, useApi } from "../../api";
 import { Cell, CellHead, Row, Table, TableBody, TableHead } from "../../Components/Table";
 import _ from "lodash";
 
@@ -26,16 +26,11 @@ async function closeFleet(characterId) {
 }
 
 export function Fleet() {
-  const [fleets, setFleets] = React.useState(null);
   const [fleetCloseModalOpen, setFleetCloseModalOpen] = React.useState(false);
   const [emptyWaitlistModalOpen, setEmptyWaitlistModalOpen] = React.useState(false);
   const authContext = React.useContext(AuthContext);
   const toastContext = React.useContext(ToastContext);
-
-  React.useEffect(() => {
-    setFleets(null);
-    errorToaster(toastContext, apiCall("/api/fleet/status", {}).then(setFleets));
-  }, [toastContext]);
+  const [fleets] = useApi("/api/fleet/status");
 
   React.useEffect(() => {
     // FCs will need this, request it now
@@ -190,16 +185,16 @@ function FleetMembers() {
 function detectSquads({ matches, categories, wings }) {
   var newMatches = { ...matches };
   var hadChanges = false;
-  for (const [catID, catName] of Object.entries(categories)) {
-    if (!(catID in matches)) {
+  for (const category of categories) {
+    if (!(category.id in matches)) {
       for (const wing of wings) {
         if (wing.name.match(/on\s+grid/i)) {
           for (const squad of wing.squads) {
             if (
-              squad.name.toLowerCase().includes(catName.toLowerCase()) ||
-              squad.name.toLowerCase().includes(catID.toLowerCase())
+              squad.name.toLowerCase().includes(category.name.toLowerCase()) ||
+              squad.name.toLowerCase().includes(category.id.toLowerCase())
             ) {
-              newMatches[catID] = [wing.id, squad.id];
+              newMatches[category.id] = [wing.id, squad.id];
               hadChanges = true;
             }
           }
@@ -229,7 +224,10 @@ export function FleetRegister() {
     );
 
     setCategories(null);
-    errorToaster(toastContext, apiCall("/api/categories", {}).then(setCategories));
+    errorToaster(
+      toastContext,
+      apiCall("/api/categories", {}).then((data) => setCategories(data.categories))
+    );
   }, [characterId, toastContext]);
 
   React.useEffect(() => {
@@ -281,21 +279,26 @@ function CategoryMatcher({ categories, wings, onChange, value }) {
   });
 
   var catDom = [];
-  for (const [catID, catName] of Object.entries(categories)) {
+  for (const category of categories) {
     var squadSelection = flatSquads.map((squad) => (
       <option key={squad.id} value={squad.id}>
         {squad.name}
       </option>
     ));
     catDom.push(
-      <p key={catID}>
+      <p key={category.id}>
         <label className="label">
-          {catName}
+          {category.name}
           <br />
         </label>
         <Select
-          value={value[catID]}
-          onChange={(evt) => onChange({ ...value, [catID]: evt.target.value.split(",") })}
+          value={value[category.id]}
+          onChange={(evt) =>
+            onChange({
+              ...value,
+              [category.id]: evt.target.value.split(",").map((i) => parseInt(i)),
+            })
+          }
         >
           <option></option>
           {squadSelection}

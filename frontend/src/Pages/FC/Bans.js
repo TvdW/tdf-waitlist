@@ -4,7 +4,7 @@ import { Table, Row, Cell, TableHead, TableBody, CellHead } from "../../Componen
 import { Button, Input, NavButton, Select } from "../../Components/Form";
 
 import { AuthContext, ToastContext } from "../../contexts";
-import { errorToaster, toaster, apiCall } from "../../api";
+import { useApi, toaster, apiCall } from "../../api";
 
 async function removeBan({ kind, id }) {
   return apiCall("/api/bans/remove", {
@@ -26,16 +26,8 @@ export function BanRoutes() {
 }
 
 function BanList() {
-  const [bans, setBans] = React.useState(null);
-  const toastContext = React.useContext(ToastContext);
   const authContext = React.useContext(AuthContext);
-
-  const refreshBans = React.useCallback(() => {
-    errorToaster(toastContext, apiCall("/api/bans/list", {}).then(setBans));
-  }, [toastContext]);
-  React.useEffect(() => {
-    refreshBans();
-  }, [refreshBans]);
+  const [bans, refreshBans] = useApi("/api/bans/list");
 
   if (!bans) {
     return <em>Loading bans...</em>;
@@ -55,6 +47,7 @@ function BanList() {
             <CellHead>ID</CellHead>
             <CellHead>Name</CellHead>
             <CellHead>Expiry</CellHead>
+            <CellHead>Added by</CellHead>
             {authContext.access["bans-manage"] && <CellHead>Actions</CellHead>}
           </Row>
         </TableHead>
@@ -68,16 +61,11 @@ function BanList() {
   );
 }
 
-function BanEntry({ kind, id, name, expires_at, onAction }) {
+function BanEntry({ kind, id, name, expires_at, onAction, added_by }) {
   const toastContext = React.useContext(ToastContext);
   const authContext = React.useContext(AuthContext);
 
-  var link;
-  if (kind === "character") {
-    link = `char:${id}`;
-  } else if (kind === "corporation" || kind === "alliance") {
-    link = `https://evewho.com/${kind}/${id}`;
-  }
+  var link = `https://evewho.com/${kind}/${id}`;
 
   return (
     <Row>
@@ -86,7 +74,8 @@ function BanEntry({ kind, id, name, expires_at, onAction }) {
         <a href={link}>{id}</a>
       </Cell>
       <Cell>{name}</Cell>
-      <Cell>{expires_at}</Cell>
+      <Cell>{expires_at ? new Date(expires_at * 1000).toLocaleString() : null}</Cell>
+      <Cell>{added_by && added_by.name}</Cell>
       {authContext.access["bans-manage"] && (
         <Cell>
           <Button onClick={(evt) => toaster(toastContext, removeBan({ kind, id })).then(onAction)}>
@@ -112,7 +101,7 @@ function AddBan() {
       apiCall("/api/bans/add", {
         json: {
           kind,
-          id: banID,
+          id: parseInt(banID),
           duration: parseFloat(duration),
         },
       }).then((success) => {

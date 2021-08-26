@@ -23,9 +23,16 @@ import _ from "lodash";
 import wBadge from "../Guide/guides/badges/w.png";
 import hBadge from "../Guide/guides/badges/h.png";
 import aBadge from "../Guide/guides/badges/a.png";
+import lBadge from "../Guide/guides/badges/l.png";
 import eBadge from "../Guide/guides/badges/e.png";
 import egoldBadge from "../Guide/guides/badges/egold.png";
-import alphaBadge from "../Guide/guides/badges/alpha.png";
+import starterBadge from "../Guide/guides/badges/starter.png";
+import hqfcBadge from "../Guide/guides/badges/hq.png";
+
+import { SkillDisplay } from "../../Components/SkillDisplay";
+import { Box } from "../../Components/Box";
+import { Title } from "../../Components/Page";
+import { Button, InputGroup } from "../../Components/Form";
 
 const tagBadges = {
   "WARPSPEED1-10": [wBadge, "Warp Speed Implants"],
@@ -33,7 +40,9 @@ const tagBadges = {
   "AMULET1-10": [aBadge, "Amulet Implants"],
   ELITE: [eBadge, "Elite"],
   "ELITE-GOLD": [egoldBadge, "Elite GOLD"],
-  "STARTER-SKILLS": [alphaBadge, "Starter skills"],
+  "STARTER-SKILLS": [starterBadge, "Starter skills"],
+  "HQ-FC": [hqfcBadge, "HQ FC"],
+  LOGI: [lBadge, "Logi Specialist"],
 };
 
 async function approveFit(id) {
@@ -97,7 +106,7 @@ XCardDOM.Head.Badges = styled.div`
     margin-left: 0.25em;
   }
   img {
-    height: 1.5em;
+    height: 1em;
   }
 `;
 XCardDOM.Content = styled.div`
@@ -137,7 +146,9 @@ XCardDOM.ReviewComment = styled.div`
   color: ${(props) => props.theme.colors.secondary.text};
 `;
 
-function ShipDisplay({ fit }) {
+function ShipDisplay({ fit, onAction }) {
+  const authContext = React.useContext(AuthContext);
+  const toastContext = React.useContext(ToastContext);
   const [modalOpen, setModalOpen] = React.useState(false);
 
   const namePrefix = fit.character ? `${fit.character.name}'s ` : "";
@@ -146,7 +157,48 @@ function ShipDisplay({ fit }) {
       <>
         {modalOpen ? (
           <Modal open={true} setOpen={setModalOpen}>
-            <FitDisplay fit={fit} />
+            <Box>
+              {authContext.access["waitlist-manage"] && (
+                <InputGroup style={{ marginBottom: "1em" }}>
+                  <Button
+                    variant="success"
+                    onClick={(evt) => {
+                      setModalOpen(false);
+                      errorToaster(toastContext, approveFit(fit.id)).then(onAction);
+                    }}
+                  >
+                    Approve
+                  </Button>
+                  <Button
+                    onClick={(evt) => {
+                      var rejectionReason = prompt(
+                        "Why is the fit being rejected? (Will be displayed to pilot)"
+                      );
+                      if (rejectionReason) {
+                        setModalOpen(false);
+                        errorToaster(toastContext, rejectFit(fit.id, rejectionReason)).then(
+                          onAction
+                        );
+                      }
+                    }}
+                  >
+                    Reject
+                  </Button>
+                </InputGroup>
+              )}
+
+              <FitDisplay fit={fit} />
+              {fit.tags.includes("STARTER-SKILLS") ? (
+                <>
+                  <Title>Starter skills</Title>
+                  <SkillDisplay
+                    characterId={fit.character.id}
+                    ship={fit.hull.name}
+                    filterMin={true}
+                  />
+                </>
+              ) : null}
+            </Box>
           </Modal>
         ) : null}
         <a onClick={(evt) => setModalOpen(true)}>
@@ -190,6 +242,26 @@ function ShipDisplay({ fit }) {
   }
 }
 
+function SkillButton({ characterId, ship }) {
+  const [onScreen, setOnScreen] = React.useState(false);
+  const [chosenShip, setChosenShip] = React.useState(ship);
+
+  return (
+    <>
+      <a title="Show skills" onClick={(evt) => setOnScreen(true)}>
+        <FontAwesomeIcon icon={faStream} />
+      </a>
+      {onScreen && (
+        <Modal open={true} setOpen={setOnScreen}>
+          <Box>
+            <SkillDisplay characterId={characterId} ship={chosenShip} setShip={setChosenShip} />
+          </Box>
+        </Modal>
+      )}
+    </>
+  );
+}
+
 export function XCard({ entry, fit, onAction }) {
   const authContext = React.useContext(AuthContext);
   const toastContext = React.useContext(ToastContext);
@@ -231,11 +303,7 @@ export function XCard({ entry, fit, onAction }) {
       }
     >
       <XCardDOM.Head>
-        {entry.character ? (
-          <a href={"char:" + entry.character.id}>{accountName}</a>
-        ) : (
-          <span>{accountName}</span>
-        )}
+        <span>{accountName}</span>
         <XCardDOM.Head.Badges>
           {tagImages}
           {approvalFlag}
@@ -243,7 +311,7 @@ export function XCard({ entry, fit, onAction }) {
         </XCardDOM.Head.Badges>
       </XCardDOM.Head>
       <XCardDOM.Content>
-        <ShipDisplay fit={fit} />
+        <ShipDisplay fit={fit} onAction={onAction} />
       </XCardDOM.Content>
       <XCardDOM.Content>
         {tagText.map((tag) => (
@@ -275,12 +343,7 @@ export function XCard({ entry, fit, onAction }) {
           </a>
         )}
         {authContext.access["skill-view"] && (
-          <NavLink
-            title="Show skills"
-            to={`/skills?character_id=${fit.character.id}&ship=${fit.hull.name}`}
-          >
-            <FontAwesomeIcon icon={faStream} />
-          </NavLink>
+          <SkillButton characterId={fit.character.id} ship={fit.hull.name} />
         )}
         {authContext.access["pilot-view"] && (
           <NavLink title="Pilot information" to={"/pilot?character_id=" + fit.character.id}>

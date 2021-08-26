@@ -1,19 +1,10 @@
-import React from "react";
 import _ from "lodash";
 import { Cell, CellHead, Row, Table, TableBody, TableHead } from "../../Components/Table";
-import { ToastContext } from "../../contexts";
-import { apiCall, errorToaster } from "../../api";
+import { useApi } from "../../api";
+import { Badge } from "../../Components/Badge";
 
 export function SkillHistory({ characterId }) {
-  const toastContext = React.useContext(ToastContext);
-  const [history, setHistory] = React.useState(null);
-  React.useEffect(() => {
-    setHistory(null);
-    errorToaster(
-      toastContext,
-      apiCall("/api/history/skills?character_id=" + characterId, {}).then(setHistory)
-    );
-  }, [toastContext, characterId]);
+  const [history] = useApi(`/api/history/skills?character_id=${characterId}`);
 
   if (!history) {
     return <em>Loading skill history...</em>;
@@ -23,12 +14,20 @@ export function SkillHistory({ characterId }) {
 
   var table = [];
   _.forEach(history.history, (historyLine) => {
+    var variant =
+      historyLine.old_level > historyLine.new_level
+        ? "danger"
+        : historyLine.old_level === historyLine.new_level
+        ? ""
+        : "success";
     table.push(
       <Row key={`${historyLine.skill_id} ${historyLine.logged_at}`}>
-        <Cell>{new Date(historyLine.logged_at).toLocaleDateString()}</Cell>
+        <Cell>{new Date(historyLine.logged_at * 1000).toLocaleDateString()}</Cell>
         <Cell>{skillNames[historyLine.skill_id]}</Cell>
         <Cell>
-          {historyLine.old_level} -&gt; {historyLine.new_level}
+          <Badge variant={variant}>
+            {historyLine.old_level} → {historyLine.new_level}
+          </Badge>
         </Cell>
       </Row>
     );
