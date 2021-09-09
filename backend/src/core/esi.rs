@@ -26,7 +26,7 @@ pub struct AuthResult {
     pub access_token: String,
     pub access_token_expiry: chrono::DateTime<chrono::Utc>,
     pub refresh_token: String,
-    pub scopes: String,
+    pub scopes: Vec<String>,
 }
 
 #[derive(Debug)]
@@ -38,6 +38,24 @@ pub enum ESIError {
     Forbidden,
     HTTP520,
     MissingScope,
+    InvalidToken,
+}
+
+#[derive(Debug, Deserialize)]
+struct JWTToken {
+    #[serde(rename = "sub")]
+    subject: String,
+    #[serde(rename = "scp")]
+    scopes: Vec<String>,
+    name: String,
+    // Yes, the token also contains 'exp'. But we get this from the oauth token endpoint already,
+    // and we should probably stick to that.
+}
+
+struct ParsedToken {
+    character_id: i64,
+    name: String,
+    scopes: Vec<String>,
 }
 
 #[derive(Debug, Clone, Copy)]
@@ -131,43 +149,47 @@ impl ESIRawClient {
             .await
     }
 
-    async fn process_verify(
-        &self,
-        access_token: &str,
-    ) -> Result<(i64, String, String), reqwest::Error> {
-        #[derive(Debug, Deserialize)]
-        struct VerifyResponse {
-            #[serde(rename = "CharacterID")]
-            character_id: i64,
-            #[serde(rename = "CharacterName")]
-            character_name: String,
-            #[serde(rename = "Scopes")]
-            scopes: String,
-        }
+    fn parse_token(&self, access_token: &str) -> Result<ParsedToken, ESIError> {
+        // Look, this is "dangerous". But really all we're doing here is decoding a
+        // base64-encoded JSON payload that was given to us over TLS from a trusted source.
+        // It would indeed be dangerous for the other end to accept an unverified
+        // access token, but for us? Nah.
+        let decoded = match jsonwebtoken::dangerous_insecure_decode::<JWTToken>(access_token) {
+            Ok(dec) => dec,
+            Err(_) => return Err(ESIError::InvalidToken),
+        };
 
-        let result: VerifyResponse = self
-            .get("https://login.eveonline.com/oauth/verify", access_token)
-            .await?
-            .json()
-            .await?;
-        Ok((result.character_id, result.character_name, result.scopes))
+        let subj_parts = decoded.claims.subject.split(":").collect::<Vec<_>>();
+        if subj_parts.len() != 3 {
+            return Err(ESIError::InvalidToken);
+        }
+        let character_id: i64 = match subj_parts[2].parse() {
+            Ok(id) => id,
+            Err(_) => return Err(ESIError::InvalidToken),
+        };
+
+        Ok(ParsedToken {
+            character_id,
+            name: decoded.claims.name,
+            scopes: decoded.claims.scopes,
+        })
     }
 
     pub async fn process_auth(
         &self,
         grant_type: &str,
         token: &str,
-    ) -> Result<AuthResult, reqwest::Error> {
+    ) -> Result<AuthResult, ESIError> {
         let token = self.process_oauth_token(grant_type, token).await?;
-        let (character_id, name, scopes) = self.process_verify(&token.access_token).await?;
+        let parsed = self.parse_token(&token.access_token)?;
         Ok(AuthResult {
-            character_id,
-            character_name: name,
+            character_id: parsed.character_id,
+            character_name: parsed.name,
             access_token: token.access_token,
             access_token_expiry: chrono::Utc::now()
                 + chrono::Duration::seconds(token.expires_in / 2),
             refresh_token: token.refresh_token,
-            scopes,
+            scopes: parsed.scopes,
         })
     }
 
@@ -248,12 +270,13 @@ impl ESIClient {
         }
 
         let expiry_timestamp = auth.access_token_expiry.timestamp();
+        let scopes_str = auth.scopes.join(" ");
         sqlx::query!(
             "REPLACE INTO access_token (character_id, access_token, expires, scopes) VALUES (?, ?, ?, ?)",
             auth.character_id,
             auth.access_token,
             expiry_timestamp,
-            auth.scopes,
+            scopes_str,
         )
         .execute(&mut tx)
         .await?;
@@ -300,7 +323,7 @@ impl ESIClient {
             .await
         {
             Ok(r) => r,
-            Err(e) => {
+            Err(ESIError::HTTPError(e)) => {
                 if e.is_status() && e.status().unwrap() == 400 {
                     warn!(
                         "Deleting refresh token for character {} as it failed to be used: {:?}",
@@ -325,10 +348,11 @@ impl ESIClient {
                 }
                 return Err(e.into());
             }
+            Err(e) => return Err(e),
         };
         self.save_auth(&refreshed).await?;
 
-        Ok((refreshed.access_token, refreshed.scopes))
+        Ok((refreshed.access_token, refreshed.scopes.join(" ")))
     }
 
     async fn access_token(&self, character_id: i64, scope: ESIScope) -> Result<String, ESIError> {
