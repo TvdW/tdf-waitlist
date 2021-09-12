@@ -28,7 +28,7 @@ export function EventNotifier() {
   const eventContext = React.useContext(EventContext);
   const playerRef = React.useRef(null);
 
-  // Create a broadcast channel, do mute all notifications on all documents
+  // Create a broadcast channel, to mute all notifications on all documents
   const broadcastChannel = new BroadcastChannel(broadcastChannelName);
   // Listen to the created broadcast channel for events
   broadcastChannel.onmessage = (event) => {
