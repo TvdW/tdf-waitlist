@@ -9,6 +9,8 @@ import { Box } from "../Box";
 
 import soundFile from "./bell-ringing-04.mp3";
 const storageKey = "EventNotifierSettings";
+const broadcastChannelName = 'tdf_wl_mute_notification'
+const muteAlertEventName = 'mute_alert';
 
 function handleMessage(event) {
   const message = JSON.parse(event.data);
@@ -25,6 +27,15 @@ export function EventNotifier() {
   const [isPlaying, setIsPlaying] = React.useState(false);
   const eventContext = React.useContext(EventContext);
   const playerRef = React.useRef(null);
+
+  // Create a broadcast channel, to mute all notifications on all documents
+  const broadcastChannel = new BroadcastChannel(broadcastChannelName);
+  // Listen to the created broadcast channel for events
+  broadcastChannel.onmessage = (event) => {
+    if (event.data === muteAlertEventName) {
+      setIsPlaying(false)
+    }
+  }
 
   const [settings, setSettings] = React.useState(() => {
     if (window.localStorage && window.localStorage.getItem(storageKey)) {
@@ -98,7 +109,7 @@ export function EventNotifier() {
       <Modal open={isPlaying} setOpen={setIsPlaying}>
         <Box>
           <p>{isPlaying}</p>
-          <Button onClick={(evt) => setIsPlaying(false)} variant="success">
+          <Button onClick={(evt) => broadcastChannel.postMessage(muteAlertEventName)} variant="success">
             OK
           </Button>
           <audio ref={playerRef} loop>
